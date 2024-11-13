@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock
+carly.txt
+
+# Ignore MAC OS files
+.DS_Store
