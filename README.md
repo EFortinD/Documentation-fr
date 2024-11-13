@@ -2,11 +2,11 @@
 
 Ce dépôt contient de la documentation sur la gestion des données de recherche (GDR) et est rédigé en utilisant le modèle Just the Docs.
 
-Vous pouvez consulter cette documentation sur la GDR sous la forme d'un site Web agréable et lisible en vous rendant sur : [documentation en ligne](https://climatesmartagcollab.github.io/Documentation-en/)
+Vous pouvez consulter cette documentation sur la GDR sous la forme d'un site Web agréable et lisible en vous rendant sur : [documentation en ligne](https://climatesmartagcollab.github.io/Documentation-fr/)
 
 ## Contribuer à la Documentation
 
-Les compétences minimales nécessaires sur GitHub pour contribuer à la documentation se trouvent dans [aide GitHub](https://climatesmartagcollab.github.io/Documentation-en/github/) et [branches GitHub](https://climatesmartagcollab.github.io/Documentation-en/github/branches.html). Vous pouvez synchroniser ce dépôt avec une version locale et y modifier les fichiers texte, puis pousser vos modifications vers le dépôt. Si vous souhaitez modifier les fichiers en local, vous devrez apprendre à utiliser [GitHub Desktop](https://climatesmartagcollab.github.io/Documentation-en/github/githubdesktop.html).
+Les compétences minimales nécessaires sur GitHub pour contribuer à la documentation se trouvent dans [aide GitHub](https://climatesmartagcollab.github.io/Documentation-fr/github/) et [branches GitHub](https://climatesmartagcollab.github.io/Documentation-fr/github/branches.html). Vous pouvez synchroniser ce dépôt avec une version locale et y modifier les fichiers texte, puis pousser vos modifications vers le dépôt. Si vous souhaitez modifier les fichiers en local, vous devrez apprendre à utiliser [GitHub Desktop](https://climatesmartagcollab.github.io/Documentation-fr/github/githubdesktop.html).
 
 Les contributions doivent être rédigées dans une branche ou un fork séparé (selon les droits d’accès de l’utilisateur). Une fois la documentation prête à être fusionnée, soumettez une Pull Request pour la fusionner avec la branche principale. L’examen et la fusion de la PR seront effectués par le responsable de la documentation.
 
