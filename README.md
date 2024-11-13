@@ -1,4 +1,4 @@
-# Documentation-fr
+# Documentation
 
 Ce dépôt contient de la documentation sur la gestion des données de recherche (GDR) et est rédigé en utilisant le modèle Just the Docs.
 
