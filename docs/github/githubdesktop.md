@@ -1,78 +1,79 @@
 ---
 layout: default
 title: GitHub Desktop
-parent: GitHub Help
+parent: Aide GitHub
 nav_order: 3
 ---
 
 # GitHub Desktop
 {: .no_toc }
 
-## Table of Contents
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-GitHub Desktop helps you copy your repository contents onto your computer. This is relevant when you want to run the code on your computer for analysis, or if you want to use a text editor on your computer because the web editor of the GitHub webpage isn't sufficient. You use GitHub Desktop to keep your local version in sync with the GitHub version of the respository.
+GitHub Desktop vous aide à copier le contenu de votre référentiel sur votre ordinateur. Cela est utile lorsque vous souhaitez exécuter le code sur votre ordinateur pour l'analyser, ou si vous souhaitez utiliser un éditeur de texte sur votre ordinateur car l'éditeur Web de la page Web GitHub n'est pas suffisant. Vous utilisez GitHub Desktop pour garder votre version locale synchronisée avec la version GitHub du référentiel.
 
-First you need to [install GitHub desktop (available for Windows and MacOS)](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop).
+Vous devez d'abord [installer GitHub Desktop (disponible pour Windows et MacOS)](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop).
 
-## Link a Repository
+## Lier un référentiel
 
-On the web, navigate to your GitHub repository that you want to open with GitHub Desktop. From the `<> Code` button, select `Open with GitHub Desktop`. You will begin the process of cloning the repository locally on your computer. The GitHub repository you cloned is the origin, it is upstream of your local version and is considered remote. The repository on your computer is your local version.
+Sur le Web, accédez au référentiel GitHub que vous souhaitez ouvrir avec GitHub Desktop. À partir du bouton « <> Code », sélectionnez « Ouvrir avec GitHub Desktop ». Vous commencerez le processus de clonage du référentiel localement sur votre ordinateur. Le référentiel GitHub que vous avez cloné est l'origine, il est en amont de votre version locale et est considéré comme distant. Le référentiel sur votre ordinateur est votre version locale.
 
-![Link to an existing repository in GitHub](../assets/images/github_desktop_open.png).
+![Lien vers un référentiel existant dans GitHub](../assets/images/github_desktop_open.png).
 
-Linking to a repository will create a GitHub folder on your computer that holds the repository contents. You can go into this folder and run code, view documents, edit contents and save your results. Saving your results is not the same thing as committing. When you use GitHub Desktop you will need to do both: save your files, and then commit (locally) your changes. When you are happy with your work you will Push your changes back up to the origin.
+La liaison à un référentiel créera un dossier GitHub sur votre ordinateur qui contiendra le contenu du référentiel. Vous pouvez accéder à ce dossier et exécuter du code, afficher des documents, modifier le contenu et enregistrer vos résultats. Enregistrer vos résultats n'est pas la même chose que valider. Lorsque vous utilisez GitHub Desktop, vous devrez faire les deux : enregistrer vos fichiers, puis valider (localement) vos modifications. Lorsque vous êtes satisfait de votre travail, vous repoussez vos modifications vers l'origine.
 
-## Pushing, Pulling and Pull Requests
+## Pousser, tirer et requêtes de tirage
 
-We first experienced Pull Requests when we discussed using branches in GitHub and merging branches. With the introduction of working locally we now introduce the concepts of pushing and pulling. Pushing and pulling in GitHub are different from creating a Pull Request (PR), though they are all part of the Git workflow. Here’s a breakdown:
+Nous avons d'abord fait l'expérience des requêtes de tirage lorsque nous avons discuté de l'utilisation des branches dans GitHub et de la fusion de branches. Avec l'introduction du travail local, nous introduisons maintenant les concepts de pousser et de tirer. Le pousser et le tirer dans GitHub sont différents de la création d'une requête de tirage (PR), bien qu'ils fassent tous partie du flux de travail Git. Voici une répartition :
 
-### Pushing and Pulling:
+### Pousser et tirer :
 
-* **Pulling**: This action retrieves the latest changes from the remote repository (origin) and integrates them into your local branch. This can be done with or without your own changes being present in the branch. _Purpose_: To update your local copy with the latest commits made by others.
-* **Pushing**: This action sends the changes (commits) you made locally to the remote repository (origin), updating it with your new work. _Purpose_: To share your changes with others by making them available on the remote repository.
+* **Tirer** : cette action récupère les dernières modifications du référentiel distant (origine) et les intègre dans votre branche locale. Cela peut être fait avec ou sans que vos propres modifications soient présentes dans la branche. _Objectif_ : mettre à jour votre copie locale avec les derniers commits effectués par d'autres.
+* **Pushing** : cette action envoie les modifications (commits) que vous avez apportées localement au référentiel distant (origine), en le mettant à jour avec votre nouveau travail. _Objectif_ : partager vos modifications avec d'autres en les rendant disponibles sur le référentiel distant.
 
-Pushing and pulling are direct interactions between your local repository and the remote repository (origin).
+Le push et le pull sont des interactions directes entre votre référentiel local et le référentiel distant (origine).
 
+### Pull Request (PR) :
 
-### Pull Request (PR):
-
-* A **Pull Request** is a formal request to merge changes from one branch (typically a feature or development branch) into another branch (often the main or master branch). _Purpose_: To propose, review, and discuss changes before they are merged into the main codebase. It allows other team members to review your code, comment on it, and request changes if necessary.
+* Une **Pull Request** est une demande formelle de fusion des modifications d'une branche (généralement une branche de fonctionnalité ou de développement) dans une autre branche (souvent la branche principale ou master). _Objectif_ : proposer, examiner et discuter des modifications avant qu'elles ne soient fusionnées dans la base de code principale. Cela permet aux autres membres de l'équipe d'examiner votre code, de le commenter et de demander des modifications si nécessaire.
 
 {: .important-title }
-> Push and Pull vs Pull Request
+> Push et Pull vs Pull Request
 >
-> Pushing and pulling deal with syncing changes between your local repository and the remote repository.
+> Le push et le pull traitent de la synchronisation des modifications entre votre référentiel local et le référentiel distant.
 >
-> Pull Requests involve requesting a merge of changes from one branch into another and are typically used for code reviews, discussion, and collaboration before final integration.
+> Les demandes d'extraction impliquent une demande de fusion des modifications d'une branche vers une autre et sont généralement utilisées pour les révisions de code, les discussions et la collaboration avant l'intégration finale.
 
-While you often push changes before creating a PR, the PR process adds a layer of collaboration and review that pushing and pulling alone do not provide.
+Bien que vous envoyiez souvent des modifications avant de créer une demande d'extraction, le processus de demande d'extraction ajoute une couche de collaboration et d'examen que la simple insertion et l'extraction ne fournissent pas.
 
+## Travailler localement
 
-## Working locally
+Chaque fois que vous commencez à travailler, vous devez confirmer le référentiel et la branche sur lesquels vous travaillez, puis extraire l'origine - cela récupère toutes les dernières modifications de votre branche de travail dans GitHub Desktop. Si quelqu'un a apporté des modifications en amont dans le référentiel GitHub lui-même (l'origine), et si vous avez apporté des modifications aux fichiers mais n'avez pas poussé vos modifications en amont vers l'origine, vous devrez peut-être résoudre certains conflits.
 
-Every time you start working you should confirm which repository and branch you are working on, and then Fetch Origin - this pulls all the latest changes to your working branch into GitHub Desktop. If someone has made changes upstream in the GitHub repo itself (the origin), and if you have made changes to files but haven't pushed your changes upstream to the origin you may have to resolve some conflicts.
+La récupération fréquente de l'origine signifie que votre copie locale du référentiel est à jour avec toutes les modifications qui peuvent avoir été apportées par d'autres ou à partir d'autres branches. Si quelqu'un a poussé des modifications vers le référentiel distant, vous serez au courant de ces modifications avant de commencer votre travail.
 
-Frequently fetching the origin means your local copy of the repository is up to date with any changes that may have been made by others or from other branches. If someone has pushed changes to the remote repository, you’ll be aware of these changes before starting your work.
-
-By fetching and pulling the latest changes, you reduce the risk of merge conflicts later. If your local changes conflict with the newly fetched remote changes, it's better to resolve them before you begin working rather than after you've made additional changes.
+En récupérant et en extrayant les dernières modifications, vous réduisez le risque de conflits de fusion ultérieurs. Si vos modifications locales entrent en conflit avec les modifications distantes récemment récupérées, il est préférable de les résoudre avant de commencer à travailler plutôt qu'après avoir effectué des modifications supplémentaires.
 
 ![GitHub desktop](../assets/images/github_desktop.png)
 
-## Saving and Commiting
+## Enregistrement et validation
 
-After you have saved your files on your computer, it is time to commit your files within GitHub Desktop. The commit becomes part of the _version history_ in your local repository. You can later revert back to this commit if needed or compare it to other commits.
+Une fois vos fichiers enregistrés sur votre ordinateur, il est temps de valider vos fichiers dans GitHub Desktop. La validation fait partie de l'historique des versions dans votre référentiel local. Vous pouvez ultérieurement revenir à cette validation si nécessaire ou la comparer à d'autres validations.
 
-The changes are saved **only** in your **local Git repository** (on your computer). This commit is not yet shared with others, as it remains local until you push it to the remote repository (origin).
+Les modifications sont enregistrées **uniquement** dans votre **référentiel Git local** (sur votre ordinateur). Cette validation n'est pas encore partagée avec d'autres personnes, car elle reste locale jusqu'à ce que vous la transmettiez au référentiel distant (origine).
 
 {: .important }
-Committing locally in GitHub Desktop **saves a snapshot of your changes** in your local repository, but the changes remain private to your computer until you push them to the remote repository.
+La validation locale dans GitHub Desktop **enregistre un instantané de vos modifications** dans votre référentiel local, mais les modifications restent privées sur votre ordinateur jusqu'à ce que vous les transmettiez au référentiel distant.
 
-## Next Steps After Local Commit
-- **Push to Remote**: Once the files are committed locally, you can _push_ them to the remote repository on GitHub (origin) to share the changes with others.
-- **Pull Requests**: If you’re working on a branch and are ready to propose changes to another branch (e.g., `main`), you might create a _Pull Request_ after pushing.
+## Étapes suivantes après la validation locale
+- **Push to Remote** : une fois les fichiers validés localement, vous pouvez les _push_ vers le référentiel distant sur GitHub (origine) pour partager les modifications avec d'autres.
+- **Pull Requests** : si vous travaillez sur une branche et êtes prêt à proposer des modifications à une autre branche (par exemple, « main »), vous pouvez créer une _Pull Request_ après l'avoir poussée.
 
-- written by Carly Huitema
+- écrit par Carly Huitema
+
+
+

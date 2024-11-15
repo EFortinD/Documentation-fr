@@ -1,85 +1,96 @@
 ---
 layout: default
 title: Ontology
-parent: Data Standardisation
+parent: Normalisation des données
 nav_order: 2
 ---
 
 # Ontology
 {: .no_toc }
 
-## Table of Contents
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-To evolve towards a findable and federatable data future, projects are adopting an ontology framework layer which essentially attempts to externalise as much of the language a dataset uses as possible, enabling it to join a larger semantically interoperable community of datasets.  Other benefits accrue - database development personnel reuse 3rd party structured vocabulary rather than unwittingly maintaining mirrored semblances of them, for example.  We begin with a short discussion of what ontologies are, how they differ from simpler kinds of structured vocabulary, and why certain features of them are needed to achieve a federated data future.  We also cover tips and training resources about how to locate and reuse ontologies in study metadata and data schemas. 
+Pour évoluer vers un avenir de données trouvables et fédérables, les projets adoptent une couche de cadre d'ontologie qui tente essentiellement d'externaliser autant que possible le langage utilisé par un ensemble de données, lui permettant de rejoindre une communauté plus large d'ensembles de données interopérables sémantiquement. D'autres avantages en découlent : le personnel de développement de bases de données réutilise le vocabulaire structuré de tiers plutôt que de maintenir involontairement des semblances en miroir de celui-ci, par exemple. Nous commençons par une brève discussion sur ce que sont les ontologies, en quoi elles diffèrent des types plus simples de vocabulaire structuré et pourquoi certaines de leurs caractéristiques sont nécessaires pour parvenir à un avenir de données fédérées. Nous couvrons également des conseils et des ressources de formation sur la façon de localiser et de réutiliser les ontologies dans les métadonnées d'étude et les schémas de données.
 
-The definition of "**ontology**" in Wikipedia speaks to its historical roots as an area of philosophy dedicated to the "study of being in reality", and dives into how things can be categorized and identified through time.  Our focus is on "**applied ontology**", which makes use of categorization and formal logic work in philosophy, but turns to description of **material entities** (things), their **characteristics** (attributes), **processes** or events that they are involved in, and **roles, functions or dispositions** they may have.  All this formality is in an effort to come to a shared agreement about how to categorize scientific terms systematically, once and for all - but recognizing that science itself makes room for hypotheses, revisions, and paradigm shifts, and so needs ontologies to evolve.
+La définition de « **ontologie** » dans Wikipédia évoque ses racines historiques en tant que domaine de la philosophie dédié à « l'étude de l'être dans la réalité » et explore la manière dont les choses peuvent être catégorisées et identifiées au fil du temps. Nous nous concentrons sur « **ontologie appliquée** », qui utilise la catégorisation et le travail de logique formelle en philosophie, mais se tourne vers la description des **entités matérielles** (choses), de leurs **caractéristiques** (attributs), des **processus** ou événements dans lesquels elles sont impliquées, et des **rôles, fonctions ou dispositions** qu'elles peuvent avoir. Toute cette formalité vise à parvenir à un accord commun sur la manière de catégoriser les termes scientifiques de manière systématique, une fois pour toutes - mais en reconnaissant que la science elle-même laisse place aux hypothèses, aux révisions et aux changements de paradigme, et a donc besoin des ontologies pour évoluer.
 
-Most ontologies were created after the web itself, and as inter-agency collaborative open source projects, many are still evolving, taking on new terms and deprecating archaic ones, refining their own domain(s) of content, and handing terms over to other ontologies for more focuse curation, and visa versa.  The sociotechnical complexity of locating or building fit-for-purpose ontology resources can be frustrating, and we discuss metrics for success here too.
+La plupart des ontologies ont été créées après le Web lui-même et, en tant que projets open source collaboratifs inter-agences, nombre d'entre elles sont encore en évolution, adoptant de nouveaux termes et abandonnant les termes archaïques, affinant leur(s) propre(s) domaine(s) de contenu et transmettant des termes à d'autres ontologies pour une curation plus ciblée, et vice versa. La complexité sociotechnique de la localisation ou de la création de ressources d'ontologie adaptées à l'objectif peut être frustrante, et nous discutons également ici des mesures de réussite.
 
-## Advantages of ontology format
-Our data standardization writeup has explained the need for kinds of structured vocabulary covering agriculture and related domains with features that make them reusable, infrastructure friendly, and semantically precise.  Ontologies, combined with some curational best-practices, have these features built-in in a way that other structured vocabulary formats can't match.  Not all ontologies are created equal, and there are dead ones, and incomplete or very poorly designed ones.  Consequently, ontology collaboratives such as the OBO Foundry have created [curational principles](https://obofoundry.org/principles/fp-000-summary.html) to enable recognition of gold standard ontologies. We will also mention some other structured vocabulary formats like the common Simple Knowledge Organization System [SKOS](https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System) that though logically and/or semantically lax, may be useful since they have institutionally-backed resources, and meet the needs of library science style category indexes, like the [AGROVOC](https://www.fao.org/agrovoc/) agricultural concepts, definitions and relationships vocabulary.
+## Avantages du format d'ontologie
+Notre article sur la normalisation des données a expliqué la nécessité de types de vocabulaire structuré couvrant l'agriculture et les domaines connexes avec des fonctionnalités qui les rendent réutilisables, compatibles avec l'infrastructure et sémantiquement précis. Les ontologies, combinées à certaines bonnes pratiques de conservation, intègrent ces fonctionnalités d'une manière que d'autres formats de vocabulaire structuré ne peuvent égaler. Toutes les ontologies ne sont pas créées de la même manière, et il en existe des mortes, des incomplètes ou très mal conçues. Par conséquent, les collaborations en matière d'ontologies telles que l'OBO Foundry ont créé des [principes de conservation](https://obofoundry.org/principles/fp-000-summary.html) pour permettre la reconnaissance des ontologies de référence. Nous mentionnerons également d'autres formats de vocabulaire structurés comme le système commun d'organisation simple des connaissances [SKOS](https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System) qui, bien que logiquement et/ou sémantiquement laxistes, peuvent être utiles car ils disposent de ressources soutenues par des institutions et répondent aux besoins des index de catégories de style bibliothécaire, comme le vocabulaire des concepts, définitions et relations agricoles [AGROVOC](https://www.fao.org/agrovoc/).
 
-A brief note about ontology terminology below: One may open an OWL ontology in a popular ontology editor like Stanford's [Protege](https://protege.stanford.edu/) and see hierarchies and lists of terms in different places; mousing over a term will yeild a unique purl style identifier for it.  Ontologies express a few kinds of term: **classes** which are categories of things, **instances** which are things that (by explicit statement, or by reasoned inference) belong to one or more class categories, object properties that connect between classes or instances, and data properties that connect between instances (and sometimes classes) and particular values.
+Une brève note sur la terminologie de l'ontologie ci-dessous : On peut ouvrir une ontologie OWL dans un éditeur d'ontologie populaire comme [Protege](https://protege.stanford.edu/) de Stanford et voir des hiérarchies et des listes de termes à différents endroits ; passer la souris sur un terme donnera un identifiant de style purl unique pour celui-ci. Les ontologies expriment quelques types de termes : les **classes** qui sont des catégories d'objets, les **instances** qui sont des objets qui (par déclaration explicite ou par inférence raisonnée) appartiennent à une ou plusieurs catégories de classes, les propriétés d'objet qui relient les classes ou les instances, et les propriétés de données qui relient les instances (et parfois les classes) à des valeurs particulières.
 
-A good ontology should be:
+Une bonne ontologie doit être :
 
-* in an [OWL format](https://en.wikipedia.org/wiki/Web_Ontology_Language) which has a few syntax variations and logical reasoning powers.
-* hosted on a public versioned repository such as GitHub.
-* supported by volunteer or funded curators (ideally experts from multiple collaborating organizations) who can respond to user inquiries and requests.
-* available on one or more ontology lookup services.
+* dans un [format OWL](https://en.wikipedia.org/wiki/Web_Ontology_Language) qui possède quelques variations de syntaxe et des pouvoirs de raisonnement logique.
 
-In this context an ontology is capable of providing:
+* hébergée sur un référentiel public versionné tel que GitHub.
 
-### Permanent URLs
-Each ontology term is given a URL and attached to a web service which returns human and computer readable information about the term, such as label, definition, synonyms, parent and child entities. The term's purl is expected to exist in perpetuity; a deprecation and replacement term reference system exists which facilitates database updates in the face of evolving ontologies. 
+* soutenue par des curateurs bénévoles ou financés (idéalement des experts de plusieurs organisations collaboratrices) qui peuvent répondre aux demandes et requêtes des utilisateurs.
 
-### Hierarchic terms and inheritance
-Each term appears in a hierarchy of terms of the same type, whether it be material entities, process types, or characteristics of things.  Here we more aptly switch to referencing an ontology term as an **entity** or **class**, because ontologies enable logical reasoners to take in an ontological description of some entity, and figure out what classes it fits or belongs to in an ontology, e.g. an animal which "'has part' exactly 4 legs" can be categorized as a "quadriped".  Any subclass (a child of a given class) of "quadruped" is also expected to have 4 legs due to the power of inheritance that OWL ontologies have.  If a reasoner is run on an ontology with a quadruped class, and it or its descendent has an instance which has only 3 legs, a logical error will result.  This highlites a quality control metric - logical consistency - that can be obtained within an ontology, and also when reasoning over merged ontologies that share the same set of relations, and over ontologies + data described by them.
+* disponible sur un ou plusieurs services de recherche d'ontologies.
 
-A hierarchical organization of terms also enables using branches of an ontology as a source of picklist choices for some attribute, equivalent to lookup tables that  computer science developers are familiar with.
+Dans ce contexte, une ontologie est capable de fournir :
 
-### Relations between entity kinds
-Naturally an ontology needs a language of relations between classes (called "object properties") such as "located in" or "part of" and a way to use them in expressing logical statements, called axioms, that must be true for an entity to match to some given class. There is also some functionality (using "data properties") for associating specific values or ranges to class axioms (e.g. "pi 'has value' "3.1415927"^^xsd:decimal).
+### URL permanentes
+Chaque terme d'ontologie reçoit une URL et est attaché à un service Web qui renvoie des informations lisibles par l'homme et l'ordinateur sur le terme, telles que l'étiquette, la définition, les synonymes, les entités parent et enfant. Le purl du terme est censé exister à perpétuité ; un système de référence de termes d'obsolescence et de remplacement existe, ce qui facilite les mises à jour de la base de données face à l'évolution des ontologies.
 
-### Free-text definition
-A class should have a free-text definition which reflects in plain language the logic of any axioms it has, or if no axioms exist, at least helps the reader to recognize what is included or excluded from its category of entity.  This style of definition is called the Aristotelian genus-differentiae form which reference a class's parent class and goes on to differentiate the kinds of entity it matches from those which its siblings would match.
+### Termes hiérarchiques et héritage
+Chaque terme apparaît dans une hiérarchie de termes du même type, qu'il s'agisse d'entités matérielles, de types de processus ou de caractéristiques de choses. Ici, nous passons plus justement à la référence d'un terme d'ontologie en tant qu'**entité** ou **classe**, car les ontologies permettent aux raisonneurs logiques de prendre en compte une description ontologique d'une entité et de déterminer à quelles classes elle correspond ou appartient dans une ontologie, par exemple un animal qui « a exactement 4 pattes » peut être classé comme un « quadripède ». On s'attend également à ce que toute sous-classe (un enfant d'une classe donnée) de « quadrupède » ait 4 pattes en raison de la puissance d'héritage des ontologies OWL. Si un raisonneur est exécuté sur une ontologie avec une classe quadrupède, et que lui ou son descendant a une instance qui n'a que 3 pattes, une erreur logique se produira. Cela met en évidence une mesure de contrôle de qualité - la cohérence logique - qui peut être obtenue au sein d'une ontologie, et également lors du raisonnement sur des ontologies fusionnées qui partagent le même ensemble de relations, et sur des ontologies + données décrites par elles.
 
-### Multilingual (also by way of synonymy lookup tables)
-Just as an ontology term has a label and free-text definition, it may also have language variants of those, enabling it to be displayed in multiple languages.
+Une organisation hiérarchique des termes permet également d'utiliser les branches d'une ontologie comme source de choix de liste de sélection pour certains attributs, équivalents aux tables de recherche que les développeurs informatiques connaissent bien.
 
-### Curation standards
-Terms are explained in the singular, are provided in a single language like English, and are lowercase except for proper noun parts.
+### Relations entre les types d'entités
+Naturellement, une ontologie a besoin d'un langage de relations entre les classes (appelées « propriétés d'objet ») telles que « situé dans » ou « partie de » et d'une manière de les utiliser pour exprimer des énoncés logiques, appelés axiomes, qui doivent être vrais pour qu'une entité corresponde à une classe donnée. Il existe également certaines fonctionnalités (utilisant des « propriétés de données ») pour associer des valeurs ou des plages spécifiques à des axiomes de classe (par exemple, « pi 'a la valeur' ​​"3.1415927"^^xsd:decimal).
 
-### Authorship
-Credit is provided for term curators and definition sources.
+### Définition en texte libre
+Une classe doit avoir une définition en texte libre qui reflète en langage clair la logique de tous les axiomes qu'elle possède, ou si aucun axiome n'existe, aide au moins le lecteur à reconnaître ce qui est inclus ou exclu de sa catégorie d'entité. Ce style de définition est appelé la forme aristotélicienne de genre-différenciation qui fait référence à la classe parente d'une classe et continue à différencier les types d'entités auxquels elle correspond de ceux auxquels ses frères et sœurs correspondraient.
 
-## Data Schemas: Database view and ontology view
-A Separation of concern ...
+### Multilingue (également par le biais de tables de recherche de synonymes)
+Tout comme un terme d'ontologie a une étiquette et une définition en texte libre, il peut également avoir des variantes linguistiques de celles-ci, ce qui lui permet d'être affiché dans plusieurs langues.
 
-## Serialized data formats
-Phenopacket encoded data uses ontologies
+### Normes de conservation
+Les termes sont expliqués au singulier et sont fournis dans une seule langue comme l'anglais, et sont en minuscules, sauf pour les parties de noms propres.
 
-## Knowledege graph modelling
-Advanced! ...
+### Autorat
+Le crédit est accordé aux conservateurs de termes et aux sources de définition.
 
-## Roles
-* User
-* Implementer
-* Curator
+## Schémas de données : vue de base de données et vue d'ontologie
+Une séparation des préoccupations ...
 
-## Training
+## Formats de données sérialisées
+Les données codées par Phenopacket utilisent des ontologies
 
-* Force11 course: [L14 Introduction to Data Curation Using Ontologies: FAIR Datasets and Community Collaboration](https://osf.io/fj38v/) written from a public health perspective but equally applicable to biosample metadata in other fields.
+## Modélisation de graphes de connaissances
+Avancé ! ...
 
-### Resources
-There are many places to find structured vocabularies such as ontologies and taxonomies as a source for terms.
+## Rôles
+* Utilisateur
+* Implémenteur
+* Conservateur
 
-- The organization CGIAR has published a resource of common [Ontologies for agriculture](https://bigdata.cgiar.org/ontologies-for-agriculture/).
-- [AgroPortal](https://agroportal.lirmm.fr/) is another source of agriculture research vocabulary.
-- The above resources relay a number of [OBO Foundry](https://obofoundry.org/) life science ontologies related to agriculture, biology, climate, and ecology research, as detailed in the [ontology](https://github.com/ClimateSmartAgCollab/Documentation-en/blob/main/docs/Data_Standardization/ontology.md) documentation section.
+## Formation
 
-* 
+* Cours Force11 : [L14 Introduction à la conservation des données à l'aide d'ontologies : ensembles de données FAIR et collaboration communautaire](https://osf.io/fj38v/) rédigé dans une perspective de santé publique mais également applicable aux métadonnées d'échantillons biologiques dans d'autres domaines.
+
+### Ressources
+Il existe de nombreux endroits où trouver des vocabulaires structurés tels que des ontologies et des taxonomies comme source de termes.
+
+- L'organisation CGIAR a publié une ressource d'ontologies communes pour l'agriculture (https://bigdata.cgiar.org/ontologies-for-agriculture/).
+- [AgroPortal](https://agroportal.lirmm.fr/) est une autre source de vocabulaire de recherche agricole.
+- Les ressources ci-dessus relaient un certain nombre d'ontologies des sciences de la vie [OBO Foundry](https://obofoundry.org/) liées à la recherche en agriculture, biologie, climat et écologie, comme détaillé dans la section de documentation [ontology](https://github.com/ClimateSmartAgCollab/Documentation-en/blob/main/docs/Data_Standardization/ontology.md).
+
+*
+
+
+
+
+
+
+
+

@@ -1,33 +1,33 @@
 ---
 layout: default
 title: Motivation
-parent: Data Standardisation
+parent: Normalisation des données
 nav_order: 1
 ---
 
-# Motivation for Data Standardization
+# Motivation pour la normalisation des données
 {: .no_toc }
 
-## Table of Contents
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-While a project’s datasets may have been built and hosted to support the immediate needs of its research aims, extra attention is usually required to create standardised data products so they can be found and reused by other stakeholders (academic, government, industry, and other research agency staff) with minimal effort.  Even if project datasets are registered in FAIR data catalogues (aka data search portals), discovery and reuse can be confounded by non-harmonized metadata and data, especially in the context of the flood of experimental and surveillance datasets being generated in many areas of research. We acknowledge that many data catalogue search interfaces can't yet take advantage of richer dataset metadata, but in the meantime this is information researchers need to manually determine dataset pertinence.
+Bien que les ensembles de données d'un projet puissent avoir été créés et hébergés pour répondre aux besoins immédiats de ses objectifs de recherche, une attention particulière est généralement requise pour créer des produits de données standardisés afin qu'ils puissent être trouvés et réutilisés par d'autres parties prenantes (personnel universitaire, gouvernemental, industriel et autre organisme de recherche) avec un minimum d'effort. Même si les ensembles de données du projet sont enregistrés dans les catalogues de données FAIR (alias portails de recherche de données), la découverte et la réutilisation peuvent être perturbées par des métadonnées et des données non harmonisées, en particulier dans le contexte du flot d'ensembles de données expérimentales et de surveillance générés dans de nombreux domaines de recherche. Nous reconnaissons que de nombreuses interfaces de recherche de catalogues de données ne peuvent pas encore tirer parti de métadonnées d'ensembles de données plus riches, mais en attendant, ces informations sont nécessaires aux chercheurs pour déterminer manuellement la pertinence des ensembles de données.
 
-## Findability
-Challenges faced by researchers and other data consumers:
+## Détectabilité
+Défis rencontrés par les chercheurs et autres consommateurs de données :
 
-* **Data catalogues**: For discovery, work is required to submit project dataset metadata to data catalogues like [FAIRsharing.org](https://fairsharing.org/) or Google's [dataset search](https://datasetsearch.research.google.com/), but the target catalogues themselves often don't share the same general data description framework (such as Schema.org [Dataset](https://schema.org/Dataset)), or the same semantic content terms.
-* **Bag of keywords consistency**: In data catalogues, a semantic description of a dataset is often limited to a set of keywords - and these keywords are often user-supplied synonomy-rich free text and/or selected from a broad rather than comprehensive menu. Even where controlled vocabulary is used, changes in preferred labelling confound retrieval of past and present results (e.g. in taxonomy, "Malus pumila" vs. "Malus domestica" to reference apple tree).
-* **Search result precision and recall**: Searching for a few general dataset domain keywords in a data catalogue will increasingly yield too many results to humanly sift through (false positives, and not suitably ranked to facilitate a cutoff point).  Conversley, providing more keywords, and more specific ones, may winnow down candidate datasets too sharply, excluding good ones that simply used some different keyword synonyms (false negatives).  Use of keywords within or across data catalogues is often inconsistent and is a fraction of the terms needed to differentiate what datasets are about.
-* **Dimensional filters**: Filters specific to experimental design and protocol, subject demographics, and biological or social context are often missing, leading to further investigation to see if specific data types are being collected, with comparable methods, and in a comparable context. Some efforts to provide standard fields that pertain to database scope exist (e.g. Schema.org fields for [temporalCoverage](https://schema.org/temporalCoverage), [countryOfOrigin](https://schema.org/countryOfOrigin), and 
+* **Catalogues de données** : pour la découverte, il faut soumettre les métadonnées d'ensembles de données du projet à des catalogues de données comme [FAIRsharing.org](https://fairsharing.org/) ou à la [recherche d'ensembles de données](https://datasetsearch.research.google.com/) de Google, mais les catalogues cibles eux-mêmes ne partagent souvent pas le même cadre général de description des données (comme Schema.org [Dataset](https://schema.org/Dataset)), ou les mêmes termes de contenu sémantique.
+* **Cohérence du sac de mots-clés** : dans les catalogues de données, une description sémantique d'un ensemble de données est souvent limitée à un ensemble de mots-clés - et ces mots-clés sont souvent du texte libre riche en synonymes fourni par l'utilisateur et/ou sélectionnés dans un menu large plutôt que complet. Même lorsque le vocabulaire contrôlé est utilisé, les changements dans l'étiquetage préféré perturbent la récupération des résultats passés et présents (par exemple dans la taxonomie, « Malus pumila » contre « Malus domestica » pour faire référence au pommier).
+* **Précision et rappel des résultats de recherche** : la recherche de quelques mots-clés généraux du domaine d'un ensemble de données dans un catalogue de données produira de plus en plus de résultats trop nombreux pour être passés au crible par un humain (faux positifs et non classés de manière appropriée pour faciliter un point de coupure). À l'inverse, fournir plus de mots-clés et des mots-clés plus spécifiques peut réduire de manière trop nette les ensembles de données candidats, en excluant les bons qui utilisent simplement des synonymes de mots-clés différents (faux négatifs). L'utilisation de mots-clés dans ou entre les catalogues de données est souvent incohérente et ne représente qu'une fraction des termes nécessaires pour différencier ce que sont les ensembles de données.
+* **Filtres dimensionnels** : les filtres spécifiques à la conception et au protocole expérimentaux, aux données démographiques des sujets et au contexte biologique ou social sont souvent manquants, ce qui conduit à des recherches plus approfondies pour voir si des types de données spécifiques sont collectés, avec des méthodes comparables et dans un contexte comparable. Certains efforts visant à fournir des champs standard relatifs à la portée de la base de données existent (par exemple, les champs Schema.org pour [temporalCoverage](https://schema.org/temporalCoverage), [countryOfOrigin](https://schema.org/countryOfOrigin) et
 [contentLocation](https://schema.org/contentLocation)).
 
-## Reuse
-It is estimated that 80% of Phd time is spent cleaning up and preparing data for analysis, and so FAIR data proponents advocate for an initial 5% investment of project budget towards data standardization to lessen this downstream burden as well as the lost-opportunity costs of failure to discover data. [[Invest 5% of research funds in ensuring data are reusable](https://www.nature.com/articles/d41586-020-00505-7)].  Up-front attention to data standardization encourages reuse and avoids later costly work required for peer-to-peer dataset mapping as new downstream users of project data are encountered. 
+## Réutilisation
+On estime que 80 % du temps de doctorat est consacré au nettoyage et à la préparation des données pour l'analyse. Les partisans des données FAIR préconisent donc un investissement initial de 5 % du budget du projet dans la normalisation des données afin de réduire cette charge en aval ainsi que les coûts des opportunités perdues en cas d'échec de la découverte des données. [[Investir 5 % des fonds de recherche pour garantir la réutilisation des données](https://www.nature.com/articles/d41586-020-00505-7)]. Une attention particulière portée à la normalisation des données en amont encourage la réutilisation et évite les travaux coûteux ultérieurs nécessaires à la cartographie des ensembles de données peer-to-peer lorsque de nouveaux utilisateurs en aval des données du projet sont rencontrés.
 
-* **Data normalization**: Once a researcher has located fit-for-purpose databases needed in their research, often much of their analytic time is consumed in field-level preparatory harmonization of the data.  The [ontology](https://github.com/ClimateSmartAgCollab/Documentation-en/blob/main/docs/Data_Standardization/ontology.md) section discusses ways to reduce this burden.
+* **Normalisation des données** : une fois qu'un chercheur a localisé les bases de données adaptées à ses besoins de recherche, une grande partie de son temps d'analyse est souvent consacrée à l'harmonisation préparatoire des données au niveau du terrain. La section [ontologie](https://github.com/ClimateSmartAgCollab/Documentation-en/blob/main/docs/Data_Standardization/ontology.md) présente les moyens de réduire cette charge.
 
-Authors: Damion Dooley
+Auteurs : Damion Dooley

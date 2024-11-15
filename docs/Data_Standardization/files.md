@@ -1,44 +1,41 @@
 ---
 layout: default
-title: File, Folder and Workflow Standards
-parent: Data Standardisation
+title: Normes relatives aux fichiers, aux dossiers et aux flux de travail
+parent: Normalisation des données
 nav_order: 7
 ---
 
-# File, Folder and Workflow Standards
+# Normes relatives aux fichiers, aux dossiers et aux flux de travail
 {: .no_toc }
 
-## Table of Contents
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-### File standards
+### Normes relatives aux fichiers
 
-File names, formats, and character sets each have standardization aspects.
+Les noms de fichiers, les formats et les jeux de caractères ont chacun des aspects de normalisation.
 
-## Why standardize file names?
+## Pourquoi normaliser les noms de fichiers ?
 
-Standardizing file naming conventions helps researchers better organize their own work and collaborate with others. 
-Benefits include: 
-* Consistent structure across files, making it easier for researchers to locate and identify documents.
-* Uniform file names make it easier to sort and arrange files in alphabetical or chronological order. 
-* Promotes a shared understanding of how files are named and organized.
-* version numbers or dates in file names helps manage version control effectively.
+La normalisation des conventions de dénomination des fichiers aide les chercheurs à mieux organiser leur propre travail et à collaborer avec d'autres.
+Les avantages comprennent :
+* Une structure cohérente entre les fichiers, ce qui permet aux chercheurs de localiser et d'identifier plus facilement les documents.
+* Des noms de fichiers uniformes facilitent le tri et l'organisation des fichiers par ordre alphabétique ou chronologique.
+* Favorise une compréhension commune de la manière dont les fichiers sont nommés et organisés.
+* Les numéros de version ou les dates dans les noms de fichiers aident à gérer efficacement le contrôle des versions.
 
-#### File character sets: 
-Data "serialized" into a text file will be encoded as strings characters from a character set which may include accents etc. A popular [UTF-8](https://en.wikipedia.org/wiki/UTF-8) standard (used to encode most web pages) includes character encodings that cover many languages and [dingbats](https://en.wikipedia.org/wiki/Dingbat) to boot!  Unfortunately that's not the only character set around, and software often has to guess what encoding an input file has, and some versions of programs like [MS Excel](https://support.guidebook.com/hc/en-us/articles/360016372414) have their own coding, leading to confusion in translation.  If odd characters are displaying in an application from an input file, try to resave the input file in an appropriate character set option before opening it in the app.
+#### Jeux de caractères de fichiers :
+Les données « sérialisées » dans un fichier texte seront codées sous forme de chaînes de caractères à partir d'un jeu de caractères pouvant inclure des accents, etc. Une norme [UTF-8](https://en.wikipedia.org/wiki/UTF-8) populaire (utilisée pour coder la plupart des pages Web) inclut des codages de caractères qui couvrent de nombreuses langues et des [dingbats](https://en.wikipedia.org/wiki/Dingbat) en plus ! Malheureusement, ce n'est pas le seul jeu de caractères existant, et les logiciels doivent souvent deviner quel codage possède un fichier d'entrée, et certaines versions de programmes comme [MS Excel](https://support.guidebook.com/hc/en-us/articles/360016372414) ont leur propre codage, ce qui entraîne une confusion lors de la traduction. Si des caractères étranges s'affichent dans une application à partir d'un fichier d'entrée, essayez de réenregistrer le fichier d'entrée dans une option de jeu de caractères appropriée avant de l'ouvrir dans l'application.
 
-## Data Management Plans
+## Plans de gestion des données
 
-All research projects for the Genome Canada's Climate-Smart Agriculture and Food Systems Initiative have created a [Data Management Plan (DMP)](../datamanagementplan.md) using the [DMP Assistant of Portage](https://dmp-pgd.ca/). This DMP typically includes recommended file naming protocols for each research project.
+Tous les projets de recherche de l'Initiative sur les systèmes agricoles et alimentaires intelligents face au climat de Génome Canada ont créé un [Plan de gestion des données (PGD)](../datamanagementplan.md) à l'aide de l'[Assistant PGD de Portage](https://dmp-pgd.ca/). Ce PGD comprend généralement des protocoles de dénomination de fichiers recommandés pour chaque projet de recherche.
 
+## Recommandations
 
+Briney, Kristin A. 2020. « Feuille de travail sur les conventions de dénomination des fichiers ». 2 juin. [https://doi.org/10.7907/894q-zr22](https://doi.org/10.7907/894q-zr22).
 
-
-## Recommendations
-
-Briney, Kristin A. 2020. “File Naming Convention Worksheet”. June 2. [https://doi.org/10.7907/894q-zr22](https://doi.org/10.7907/894q-zr22).
-
-- Authors: Carly Huitema, Damion Dooley
+- Auteurs : Carly Huitema, Damion Dooley

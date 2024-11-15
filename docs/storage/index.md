@@ -1,59 +1,57 @@
 ---
 layout: default
-title: Data Storage
+title: Stockage des données
 nav_order: 5
 ---
 
-# Data Storage
+# Stockage des données
 
-## Active Data Storage
+## Stockage des données actives
 
-Active data is that which is under current collection and analysis.
+Les données actives sont celles qui sont en cours de collecte et d'analyse.
 
-It is recommended that when saving your active research data you use the 3-2-1 rule: Save three copies of your data, on two different storage mediums, and one copy off site.
+Il est recommandé d'utiliser la règle 3-2-1 lors de la sauvegarde de vos données de recherche actives : enregistrez trois copies de vos données, sur deux supports de stockage différents, et une copie hors site.
 
+## Stockage des données d'archives
 
-## Archive Data Storage
+De nombreuses ressources sont disponibles pour le stockage des données à la fin d'un projet de recherche.
 
-There are many resources available for data storage at the end of a research project. 
+**Les référentiels spécialisés** sont ceux qui sont dédiés à des types de données spécifiques.
 
-**Specialist repostitories** are those that are dedicated to specific kinds of data.
+En voici quelques exemples :
+1. [GenBank](https://www.ncbi.nlm.nih.gov/genbank/). Un référentiel public complet de séquences d'ADN maintenu par le NCBI, qui soutient la recherche génomique et métagénomique.
+2. [GenBank Bioproject](https://www.ncbi.nlm.nih.gov/bioproject). L'enregistrement du BioProject est requis dans le cadre du dépôt de données dans plusieurs archives de données primaires du NCBI, notamment SRA, TSA et WGS.
+3. [Archive de lecture de séquence (SRA)](https://www.ncbi.nlm.nih.gov/sra). Un référentiel pour les données de séquençage à haut débit, stockant les lectures de séquençage brutes des études génomiques.
+4. [Assemblage de transcriptome Shotgun (TSA)](https://www.ncbi.nlm.nih.gov/tsa). Un référentiel pour les séquences de transcriptome, contenant des assemblages de divers organismes.
+5. [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/). Un référentiel pour les données génomiques fonctionnelles, stockant l'expression génétique à haut débit et d'autres données génomiques.
+6. [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home). Une ressource pour les données de séquence brutes, les alignements et les données d'assemblage provenant de projets de séquençage à haut débit.
+7. [EBI Metagenomics](https://www.ebi.ac.uk/metagenomics). Une ressource de l'Institut européen de bioinformatique qui propose des outils pour l'analyse et l'archivage des données métagénomiques.
+8. [GISAID](https://gisaid.org/). Un référentiel mondial pour le partage des séquences du génome de la grippe et d'autres virus afin de suivre et de surveiller l'évolution virale.
+9. [TreeBASE](https://treebase.org/). Un référentiel d'informations phylogénétiques, y compris les arbres phylogénétiques publiés et les données associées.
+10. [Ag Data Commons](https://agdatacommons.nal.usda.gov/). Un référentiel géré par l'USDA pour les données liées à l'agriculture, y compris les données génomiques, phénotypiques et environnementales.
+11. [Wheat Initiative's WheatIS](http://wheatis.org/). Un référentiel mondial de données sur le blé pour les données génomiques, phénotypiques et de sélection afin de soutenir la recherche agricole.
+12. [PeptideAtlas](http://www.peptideatlas.org/). Un référentiel de données sur les peptides et la protéomique, fournissant une vaste collection de peptides observés à partir d'expériences de spectrométrie de masse.
+13. [Protein Data Bank (PDB)](https://www.rcsb.org/). Un référentiel pour les données structurelles 3D de grandes molécules biologiques, y compris les protéines et les acides nucléiques.
 
-Examples include:
-1. [GenBank](https://www.ncbi.nlm.nih.gov/genbank/). A comprehensive public repository of DNA sequences maintained by NCBI, supporting genomic and metagenomic research.
-2. [GenBank Bioproject](https://www.ncbi.nlm.nih.gov/bioproject). BioProject registration is required as part of data deposit to several NCBI primary data archives including SRA, TSA, and WGS.
-3. [Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra). A repository for high-throughput sequencing data, storing raw sequencing reads from genomic studies.
-4. [Transcriptome Shotgun Assembly (TSA)](https://www.ncbi.nlm.nih.gov/tsa). A repository for transcriptome sequences, containing assemblies from various organisms.
-5. [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/). A repository for functional genomic data, storing high-throughput gene expression and other genomic data.
-6. [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home). A resource for raw sequence data, alignments, and assembly data from high-throughput sequencing projects.
-7. [EBI Metagenomics](https://www.ebi.ac.uk/metagenomics). A European Bioinformatics Institute resource that offers tools for the analysis and archiving of metagenomic data.
-8. [GISAID](https://gisaid.org/). A global repository for the sharing of influenza and other viral genome sequences to track and monitor viral evolution.
-9. [TreeBASE](https://treebase.org/). A repository of phylogenetic information, including published phylogenetic trees and associated data.
-10. [Ag Data Commons](https://agdatacommons.nal.usda.gov/). A USDA-managed repository for data related to agriculture, including genomic, phenotypic, and environmental data.
-11. [Wheat Initiative's WheatIS](http://wheatis.org/). A global wheat data repository for genomic, phenotypic, and breeding data to support agricultural research.
-12. [PeptideAtlas](http://www.peptideatlas.org/). A repository of peptide and proteomics data, providing a large collection of observed peptides from mass spectrometry experiments.
-13. [Protein Data Bank (PDB)](https://www.rcsb.org/). A repository for 3D structural data of large biological molecules, including proteins and nucleic acids.
- 
+Les **référentiels généralistes** ne sont pas spécifiques au type de données de recherche qu'ils hébergent (bien qu'ils aient d'autres limitations telles que la taille de l'ensemble de données).
 
-**Generalist Repositories** aren't specific about the type of research data that they host (although they have other limitations such as dataset size).
+Au Canada, la plupart des institutions hébergent des référentiels de données généralistes, généralement [Borealis](https://borealisdata.ca/) (qui est dérivé de Dataverse). Des ensembles de données plus volumineux peuvent être stockés dans le [Fedrated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/).
 
-In Canada most institutions host generalist data repositories, typically [Borealis](https://borealisdata.ca/) (which is derived from Dataverse). Larger datasets can be stored on the [Fedrated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/).
+L'avantage de stocker dans ces dépôts canadiens est que les données peuvent être cataloguées par d'autres services, ce qui rend vos données plus faciles à trouver par d'autres chercheurs. Recherchez des données de recherche canadiennes à l'aide du [moteur de recherche de données Lunaris](https://www.lunaris.ca/).
 
-The advantage of storing in these Canadian repositories is that the data can be catalogued by other services making your data more findable by other researchers. Search Canadian research data using the [Lunaris data search engine](https://www.lunaris.ca/).
+D'autres dépôts généralistes incluent :
+1. [Zenodo](https://zenodo.org/). Un dépôt en libre accès pour les données de recherche, offrant un stockage à long terme pour les résultats de la recherche scientifique.
+2. [Figshare](https://figshare.com/). Un dépôt basé sur le cloud où les chercheurs peuvent télécharger, partager et gérer des données de recherche, des figures et des publications.
+3. [GDR](https://uquebec.libguides.com/gdr/). Le Guide des dépôts de recherche est une plateforme donnant accès à une variété de dépôts de données de recherche scientifique.
+4. [GitHub](https://github.com/). Une plateforme principalement utilisée pour l'hébergement de code et la collaboration, mais aussi pour le stockage d'ensembles de données de recherche et de documentation de projet. Les versions de GitHub peuvent être automatiquement configurées pour être archivées dans Zenodo.
+5. [Borealis](https://borealisdata.ca/). Un référentiel canadien de données de recherche qui offre un stockage à long terme et le partage de données de recherche entre les institutions.
+6. [FRDR (Federated Research Data Repository)](https://www.frdr-dfdr.ca/). Une plateforme de découverte et de partage de données de recherche canadiennes, visant à soutenir la gestion et la préservation des données.
 
-Other generalist repositories include:
-1. [Zenodo](https://zenodo.org/). An open-access repository for research data, offering long-term storage for scientific research outputs.
-2. [Figshare](https://figshare.com/). A cloud-based repository where researchers can upload, share, and manage research data, figures, and publications.
-3. [GDR](https://uquebec.libguides.com/gdr/). The Guide des dépôts de recherche is a platform providing access to a variety of scientific research data repositories.
-4. [GitHub](https://github.com/). A platform primarily used for code hosting and collaboration, but also for storing research datasets and project documentation. GitHub releases can be automatically configured to be archived in Zenodo.
-5. [Borealis](https://borealisdata.ca/). A Canadian research data repository that offers long-term storage and sharing of research data across institutions.
-6. [FRDR (Federated Research Data Repository)](https://www.frdr-dfdr.ca/). A platform for discovering and sharing Canadian research data, aimed at supporting data management and preservation.
+**Logiciel de référentiel**
+1. [iRODS](https://irods.org/). Le Rule-Oriented Data System (iRODS) est un logiciel de gestion de données open source utilisé par les organismes de recherche et les agences gouvernementales du monde entier.
 
-**Repository software**
-1. [iRODS](https://irods.org/). The Rule-Oriented Data System (iRODS) is open source data management software used by research organizations and government agencies worldwide.  
+## Liens utiles
+* [Guide des référentiels canadiens](https://zenodo.org/records/3966349)
+* [Recherche de données Lunaris](https://www.lunaris.ca/)
 
-## Helpful links
-* [Guide to Canadian Repositories](https://zenodo.org/records/3966349)
-* [Lunaris data search](https://www.lunaris.ca/)
-
-- written by Carly Huitema
+- écrit par Carly Huitema

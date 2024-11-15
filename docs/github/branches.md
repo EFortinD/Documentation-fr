@@ -1,110 +1,122 @@
 ---
 layout: default
-title: GitHub Branches
-parent: GitHub Help
+title: Branches GitHub
+parent: Aide GitHub
 nav_order: 2
 ---
 
-# GitHub Branches
+# Branches GitHub
 {: .no_toc }
 
-## Table of Contents
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-Branches in GitHub allow teams to work on different versions of documentation simultaneously without affecting the main version. They enable experimentation, content updates, or large revisions in isolation. Once changes are finalized and reviewed, they can be merged into the main branch, ensuring the primary documentation remains stable while updates are developed. This approach supports collaboration, version control, and smoother integration of changes.
+Les branches dans GitHub permettent aux équipes de travailler simultanément sur différentes versions de la documentation sans affecter la version principale. Elles permettent l'expérimentation, les mises à jour de contenu ou les révisions importantes de manière isolée. Une fois les modifications finalisées et examinées, elles peuvent être fusionnées dans la branche principale, garantissant ainsi que la documentation principale reste stable pendant le développement des mises à jour. Cette approche prend en charge la collaboration, le contrôle des versions et une intégration plus fluide des modifications.
 
-## A Scenario with Branching
+## Un scénario avec ramification
 
-Consider this scenario and then read on to learn the details: You are collaborating on developing a standard (such as a controlled vocabulary). Your group has released one version already and you are working on the next release which is on its own 'next release' branch. To make your edits, first you create your editing branch from this next release branch and make the changes. You commit your changes to your branch, and then you put in a Pull Request (PR) to have your changes accepted in the next release branch. At the next scheduled review, your group goes through all the PRs, reading the descriptions, looking at the changes and deciding if they will accept the changes or send the work back with comments. Your changes are accepted and your branch is merged into the next release branch. When the next release branch is finalized, you will release the next version of your controlled vocabulary from this work.
+Examinez ce scénario, puis lisez la suite pour en savoir plus : vous collaborez au développement d'une norme (comme un vocabulaire contrôlé). Votre groupe a déjà publié une version et vous travaillez sur la prochaine version qui se trouve sur sa propre branche « prochaine version ». Pour effectuer vos modifications, vous créez d'abord votre branche d'édition à partir de cette branche de prochaine version et effectuez les modifications. Vous validez vos modifications dans votre branche, puis vous faites une demande d'extraction (Pull Request, PR) pour que vos modifications soient acceptées dans la branche de prochaine version. Lors de la prochaine révision programmée, votre groupe passe en revue toutes les PR, lit les descriptions, examine les modifications et décide s'il acceptera les modifications ou renverra le travail avec des commentaires. Vos modifications sont acceptées et votre branche est fusionnée dans la branche de prochaine version. Lorsque la branche de prochaine version est finalisée, vous publierez la prochaine version de votre vocabulaire contrôlé à partir de ce travail.
 
-## Branch Names
+## Noms de branches
 
-Deciding on branch naming conventions can make it much easier to manage your work. For example, decide on a few categories of branch names (e.g. fix, new, feature etc.) and use them as terms for the start of your branch name. Separate your branch category from the details with a /. e.g. fix/animal would be a branch name.
+Déterminer les conventions de dénomination des branches peut faciliter grandement la gestion de votre travail. Par exemple, décidez de quelques catégories de noms de branches (par exemple, correctif, nouveau, fonctionnalité, etc.) et utilisez-les comme termes pour le début de votre nom de branche. Séparez votre catégorie de branche des détails par un /. par exemple fix/animal serait un nom de branche.
 
-## Make a Branch
+## Créer une branche
 
-After deciding on the name for your branch it is time to create it. One way to create it is to click on the branch button, type in your new name and select "Create branch fix/animal from main". See the image below for the example.
+Après avoir décidé du nom de votre branche, il est temps de la créer. Une façon de la créer est de cliquer sur le bouton de branche, de saisir votre nouveau nom et de sélectionner « Créer une branche fix/animal à partir de la branche principale ». Voir l'image ci-dessous pour l'exemple.
 
-![Add a new branch](../assets/images/new_branch.png)
+![Ajouter une nouvelle branche](../assets/images/new_branch.png)
 
-After you have created a branch you can find it, and others back on the branch button. In the above example the branch was made from main, but if you were working on a new release (e.g. branch release/v2), your branch could be off this next release branch instead.
+Après avoir créé une branche, vous pouvez la retrouver, ainsi que d'autres, sur le bouton de branche. Dans l'exemple ci-dessus, la branche a été créée à partir de la branche principale, mais si vous travailliez sur une nouvelle version (par exemple, la branche release/v2), votre branche pourrait être à la place de cette branche de la prochaine version.
 
-If you are working in GitHub and can't find the changes you were sure you were making, be sure to check which branch you are currently on!
+Si vous travaillez dans GitHub et que vous ne trouvez pas les modifications que vous étiez sûr d'avoir apportées, assurez-vous de vérifier sur quelle branche vous vous trouvez actuellement !
 
-![Check current branch](../assets/images/check_branch.png)
+![Vérifier la branche actuelle](../assets/images/check_branch.png)
 
-## Edit Files in a Branch
+## Modifier les fichiers dans une branche
 
-After checking which branch you are on, you can go in and make changes in the files. When you are finished making changes you will `Commit changes...` as before. Add your commit message and description and verify that you are adding your commit to the correct branch before Commiting your changes. In this window you can also see that you could create a new branch instead. This is another way to make a branch - make changes first and then Commit to a new branch.
+Après avoir vérifié sur quelle branche vous vous trouvez, vous pouvez y accéder et apporter des modifications aux fichiers. Lorsque vous avez terminé vos modifications, vous cliquerez sur « Valider les modifications... » comme précédemment. Ajoutez votre message de validation et votre description et vérifiez que vous ajoutez votre validation à la bonne branche avant de valider vos modifications. Dans cette fenêtre, vous pouvez également voir que vous pouvez créer une nouvelle branche à la place. C'est une autre façon de créer une branche : effectuez d'abord les modifications, puis validez sur une nouvelle branche.
 
-![Commit changes to a specific branch](../assets/images/github_commit_branch.png)
+![Valider les modifications sur une branche spécifique](../assets/images/github_commit_branch.png)
 
-After you have committed the changes you can compare the changes by switching branches. You can verify that your new changes are limited to the current branch you are on.
+Après avoir validé les modifications, vous pouvez comparer les modifications en changeant de branche. Vous pouvez vérifier que vos nouvelles modifications sont limitées à la branche actuelle sur laquelle vous vous trouvez.
 
-## Raise a Pull Request
+## Lancer une Pull Request
 
-* A **Pull Request** is a formal request to merge changes from one branch (such as fix/animal in our example) into another branch (often the main or master branch or release/v2 in our example). _Purpose_: To propose, review, and discuss changes before they are merged into the main codebase. It allows other team members to review your code, comment on it, and request changes if necessary.
+* Une **Pull Request** est une demande formelle de fusion des modifications d'une branche (comme fix/animal dans notre exemple) dans une autre branche (souvent la branche principale ou master ou release/v2 dans notre exemple). _Objectif_ : proposer, examiner et discuter des modifications avant qu'elles ne soient fusionnées dans la base de code principale. Cela permet aux autres membres de l'équipe de réviser votre code, de le commenter et de demander des modifications si nécessaire.
 
-To merge your changes you need to perform a Pull Request (or PR) in GitHub. You don't push your changes onto the other branch, you request to have your changes pulled in.
+Pour fusionner vos modifications, vous devez effectuer une Pull Request (ou PR) dans GitHub. Vous ne transférez pas vos modifications sur l'autre branche, vous demandez que vos modifications soient intégrées.
 
-Click on `Pull requests` and create a `New pull request`.
+Cliquez sur « Pull requests » et créez une « New pull request ».
 
 ![Start a PR](../assets/images/github_start_pr.png)
 
-Now you will pick which branch you want to merge into the host branch (in this example merging from branch fix/animal into branch main). Below you will see all the changes between the two which helps you decide if this is the PR you want to generate. Select `Create pull request`.
+Vous allez maintenant choisir la branche que vous souhaitez fusionner dans la branche hôte (dans cet exemple, fusion de la branche fix/animal dans la branche main). Ci-dessous, vous verrez tous les changements entre les deux, ce qui vous aide à décider s'il s'agit de la PR que vous souhaitez générer. Sélectionnez « Créer une pull request ».
 
-![compare changes before starting the PR](../assets/images/github_compare_for_pr.png)
+![comparez les modifications avant de commencer la PR](../assets/images/github_compare_for_pr.png)
 
-While you have been making notes about each commit you do all along, when it comes ot the PR it is time to write your summary comments to the PR. Writing a good PR will help the community (or you) understand exactly what you were doing and why. Select `Create pull request`.
+Pendant que vous avez pris des notes sur chaque commit que vous faites tout au long du processus, lorsqu'il s'agit de la PR, il est temps d'écrire vos commentaires récapitulatifs sur la PR. Rédiger une bonne PR aidera la communauté (ou vous) à comprendre exactement ce que vous faisiez et pourquoi. Sélectionnez « Créer une demande d'extraction ».
 
-![Open a PR](../assets/images/github_open_pr.png)
+![Ouvrir une PR](../assets/images/github_open_pr.png)
 
-Now you have created your pull request (assuming you have no conflicts which we will talk about later). You can stop here and your pull request has been added to the queue of PRs. You might want to stop here because this is a good time for someone else to review your writing/code. Especially if you are collaborating on documents, when it comes time to merge with one of the more important branches (like your main branch or a release branch) your community may want to come together to review PRs, make decisions if they should be merged or returned with comments for more revisions before merging.
+Vous avez maintenant créé votre demande d'extraction (en supposant que vous n'ayez aucun conflit dont nous parlerons plus tard). Vous pouvez vous arrêter ici et votre demande d'extraction a été ajoutée à la file d'attente des PR. Vous voudrez peut-être vous arrêter ici car c'est le bon moment pour que quelqu'un d'autre révise votre écriture/code. Surtout si vous collaborez sur des documents, quand vient le temps de fusionner avec l'une des branches les plus importantes (comme votre branche principale ou une branche de publication), votre communauté peut vouloir se réunir pour examiner les PR, prendre des décisions quant à savoir s'ils doivent être fusionnés ou renvoyés avec des commentaires pour plus de révisions avant la fusion.
 
-If you make more commits to a branch after a PR has been made, those later commits also get added to the PR. If you want to save new changes and you don't want them to be added to the open PR you will need to create a new branch.
+Si vous effectuez d'autres commits sur une branche après qu'un PR a été effectué, ces commits ultérieurs sont également ajoutés au PR. Si vous souhaitez enregistrer de nouvelles modifications et que vous ne voulez pas qu'elles soient ajoutées au PR ouvert, vous devrez créer une nouvelle branche.
 
-![Review a PR](../assets/images/github_review_PR.png)
+![Examiner un PR](../assets/images/github_review_PR.png)
 
-## Review a Pull Request
+## Examiner une demande d'extraction
 
-If you are working collaboratively on a project you will want to review PRs and leave comments. If you don't accept a PR and think that more changes are needed you can make those comments and select `Close with comment`.
+Si vous travaillez en collaboration sur un projet, vous souhaiterez examiner les PR et laisser des commentaires. Si vous n'acceptez pas un PR et pensez que d'autres modifications sont nécessaires, vous pouvez faire ces commentaires et sélectionner « Fermer avec commentaire ».
 
-Branches can be futher developed, PRs can be reopened and reassesed and eventually a PR will be accepted.
+Les branches peuvent être développées plus avant, les PR peuvent être rouvertes et réévaluées et finalement un PR sera accepté.
 
-## Merge a Pull Request
+## Fusionner une demande de tirage
 
-Once you have decided to accept all the changes in a PR you can merge the pull request (and confirm the merge). 
+Une fois que vous avez décidé d'accepter toutes les modifications d'une demande de tirage, vous pouvez fusionner la demande de tirage (et confirmer la fusion).
 
-![Merge a PR](../assets/images/github_merge_pr.png)
+![Fusionner une demande de tirage](../assets/images/github_merge_pr.png)
 
-Once a branch has been merged you can may choose to delete the source branch (for example delete the fix/animal branch). The changes have been added to the main branch and deleting completed branches helps keep the project clear and tidy. If you've made a mistake, you can also revert the merge. This doesn't delete all the changes in your commit history, but it replays backwards the changes you made and you can undo the merge.
+Une fois qu'une branche a été fusionnée, vous pouvez choisir de supprimer la branche source (par exemple, supprimer la branche fix/animal). Les modifications ont été ajoutées à la branche principale et la suppression des branches terminées permet de garder le projet clair et ordonné. Si vous avez fait une erreur, vous pouvez également annuler la fusion. Cela ne supprime pas toutes les modifications de votre historique de validation, mais cela rejoue à l'envers les modifications que vous avez apportées et vous pouvez annuler la fusion.
 
-![Delete a branch](../assets/images/github_delete_branch.png)
+![Supprimer une branche](../assets/images/github_delete_branch.png)
 
-## Merge Conflicts
+## Conflits de fusion
 
-Merge conflicts happen when you try to merge branches that have competing commits, for example if two people try to change the same line of the file. The GitHub official documentation site has an excellent review of [how to resolve merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github). 
+Les conflits de fusion se produisent lorsque vous essayez de fusionner des branches qui ont des commits concurrents, par exemple si deux personnes essaient de modifier la même ligne du fichier. Le site de documentation officiel de GitHub propose une excellente analyse de [comment résoudre les conflits de fusion](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github).
 
 ## Forking
 
-What happens if are contributing to a standard/documentation repository but you don't have permissions to work in that repository? This is a very typical model for working on collaborative projects using GitHub. 
+Que se passe-t-il si vous contribuez à un référentiel standard/de documentation mais que vous n'avez pas les autorisations pour travailler dans ce référentiel ? Il s'agit d'un modèle très courant pour travailler sur des projets collaboratifs à l'aide de GitHub.
 
-To collaborate on projects you create a fork of the repository and keep it in your personal repository (or an organization you are a member of). Then you make changes there and you can make Pull Requests from your repository to the source (aka upstream) repository. Read the details on the [GitHub documentation site](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks).
+Pour collaborer sur des projets, vous créez un fork du référentiel et le conservez dans votre référentiel personnel (ou dans une organisation dont vous êtes membre). Ensuite, vous y apportez des modifications et vous pouvez faire des Pull Requests depuis votre dépôt vers le dépôt source (alias en amont). Lisez les détails sur le [site de documentation GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks).
 
-## Summary
+## Résumé
 
-Now you have the tools to work collaboratively on the shared project using GitHub. Whether it is code or documentation GitHub lets you create branches to explore work, raise PRs to merge your work back and ultimately merge your work into the ongoing projects official branches. If you are working by yourself you won't need to wait for approval before merging. Without adding branch protection rules (not covered in this tutorial) you'll see that you can raise PRs and merge without waiting for approval. With GitHub all change are recorded in the commit record so you will always be able to go and see who made changes and what those changes were.
+Vous disposez désormais des outils pour travailler en collaboration sur le projet partagé à l'aide de GitHub. Qu'il s'agisse de code ou de documentation, GitHub vous permet de créer des branches pour explorer le travail, de générer des PR pour fusionner votre travail et, finalement, de fusionner votre travail dans les branches officielles des projets en cours. Si vous travaillez seul, vous n'aurez pas besoin d'attendre l'approbation avant de fusionner. Sans ajouter de règles de protection des branches (non abordées dans ce tutoriel), vous verrez que vous pouvez générer des PR et fusionner sans attendre l'approbation. Avec GitHub, toutes les modifications sont enregistrées dans l'enregistrement de validation, vous pourrez donc toujours aller voir qui a effectué les modifications et quelles ont été ces modifications.
 
-## Further Resources
+## Autres ressources
 
-Those looking for a deep dive into GitHub branching models can read [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) which has a code focus but could be relevant to documentation projects as well (where bugs=typos for example).
+Ceux qui recherchent une analyse approfondie des modèles de ramification GitHub peuvent lire [Un modèle de ramification Git réussi](https://nvie.com/posts/a-successful-git-branching-model/) qui se concentre sur le code mais qui pourrait également être pertinent pour les projets de documentation (où les bugs=typos par exemple).
 
-More details on collaborating with GitHub can be found at the [OBO Semantic Engineering Training](https://oboacademy.github.io/obook/tutorial/github-fundamentals/) documentation site.
+Vous trouverez plus de détails sur la collaboration avec GitHub sur le site de documentation [OBO Semantic Engineering Training](https://oboacademy.github.io/obook/tutorial/github-fundamentals/).
 
-- written by Carly Huitema
+- écrit par Carly Huitema
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

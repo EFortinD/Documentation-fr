@@ -1,88 +1,92 @@
 ---
 layout: default
-title: GitHub Help
+title: Aide GitHub
 nav_order: 3
 ---
 
-# Introduction to a GitHub Repository
+# Présentation d'un référentiel GitHub
 {: .no_toc }
 
-## Table of Contents
+## Table des matières
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-Begin to learn about using GitHub here.
+Commencez à apprendre à utiliser GitHub ici.
 
-## Wayfinding and Navigation
+## Orientation et navigation
 
-A GitHub repository is where you can store all the assets of a project. GitHub is extremely good at handling version control of text files. Typically GitHub is used for code management, but GitHub can also be very useful for managing the development of standards.
+Un référentiel GitHub est l'endroit où vous pouvez stocker tous les actifs d'un projet. GitHub est extrêmement efficace pour gérer le contrôle de version des fichiers texte. En général, GitHub est utilisé pour la gestion du code, mais GitHub peut également être très utile pour gérer le développement de normes.
 
-Because GitHub is so often used by coders, help material is typically written by developers for developers.
+Étant donné que GitHub est si souvent utilisé par les codeurs, le matériel d'aide est généralement écrit par des développeurs pour des développeurs.
 
-This guide is written for people who are typically not coders but want to benefit from some of the great features GitHub can offer.
+Ce guide est écrit pour les personnes qui ne sont généralement pas des codeurs mais qui souhaitent bénéficier de certaines des fonctionnalités intéressantes que GitHub peut offrir.
 
-Below is an example of a GitHub Repository. A repository typically contains all the files related to a project. For people writing and sharing data standards (or ontologies or other text-based documents), a repository could hold the information for a data standard.
+Vous trouverez ci-dessous un exemple de référentiel GitHub. Un référentiel contient généralement tous les fichiers liés à un projet. Pour les personnes qui écrivent et partagent des normes de données (ou des ontologies ou d'autres documents textuels), un référentiel peut contenir les informations relatives à une norme de données.
 
-![GitHub initial navigation](../assets/images/github_initial_navigation.PNG)
+![Navigation initiale GitHub](../assets/images/github_initial_navigation.PNG)
 
-The name of this repository pictured above is called HUB-Harmonization. It is a public repository which means that anyone on the web can see it, but only people with permission will be able to edit it.
+Le nom de ce référentiel illustré ci-dessus s'appelle HUB-Harmonization. Il s'agit d'un référentiel public, ce qui signifie que toute personne sur le Web peut le voir, mais que seules les personnes autorisées pourront le modifier.
 
-In the purple box is a description written by the owner of the repository which describes what is in the repository.
+Dans la case violette se trouve une description écrite par le propriétaire du référentiel qui décrit ce qu'il contient.
 
-In the blue box are highlighted folders/directories and files that belong in the repository. Beside them in the red box are notes made by the last person who edited the file or folder.
+Dans la case bleue sont mis en surbrillance les dossiers/répertoires et les fichiers qui appartiennent au référentiel. À côté d'eux, dans la case rouge, se trouvent les notes prises par la dernière personne qui a modifié le fichier ou le dossier.
 
-Typically in the files of a repository is a file called README.md. GitHub recognizes that a readme file is special and will show the contents of the readme file by default in the area below (pointed to by the green arrow).
+En général, dans les fichiers d'un référentiel se trouve un fichier appelé README.md. GitHub reconnaît qu'un fichier readme est spécial et affichera le contenu du fichier readme par défaut dans la zone ci-dessous (indiquée par la flèche verte).
 
-If you click on the folder `data_standards` you can see what documents have been added to this folder.
+Si vous cliquez sur le dossier `data_standards`, vous pouvez voir quels documents ont été ajoutés à ce dossier.
 
-![GitHub files navigation](../assets/images/github_files_navigation.PNG)
+![Navigation des fichiers GitHub](../assets/images/github_files_navigation.PNG)
 
-After clicking on `data_standards` you enter the files view where you can navigate the contents of the repository. In the folder/directory `data_standards` there is another readme.md (red box), which is recognized by GitHub and the contents shown by default below (green arrow). 
+Après avoir cliqué sur `data_standards`, vous entrez dans la vue des fichiers où vous pouvez parcourir le contenu du référentiel. Dans le dossier/répertoire `data_standards`, il y a un autre readme.md (case rouge), qui est reconnu par GitHub et le contenu affiché par défaut ci-dessous (flèche verte).
 
-On the left is the file navigation (purple box) where you can navigate the structure of the repository. In the blue box is a folder with two dots `..` where clicking on this will move you up one folder/directory.
+Sur la gauche se trouve la navigation des fichiers (case violette) où vous pouvez parcourir la structure du référentiel. Dans la case bleue se trouve un dossier avec deux points `..` où cliquer dessus vous fera remonter d'un dossier/répertoire.
 
-## Writing and saving in GitHub using the webpage
+## Écrire et enregistrer dans GitHub en utilisant la page Web
 
-The easiest way to work with GitHub is to do all your editing directly in the webpage. Lots of helpful pages on the internet talk about Git CLI (Command Line Interface) or GitHub desktop, but all kinds of progress can be made in GitHub just through the web interface.
+La façon la plus simple de travailler avec GitHub est d'effectuer toutes vos modifications directement dans la page Web. De nombreuses pages utiles sur Internet parlent de Git CLI (Command Line Interface) ou de GitHub Desktop, mais toutes sortes de progrès peuvent être réalisés dans GitHub simplement via l'interface Web.
 
-In the [Sandbox repository](https://github.com/ClimateSmartAgCollab/sandbox) of the ClimateSmartAgCollab organization, or in your own personal repository you can edit the readme.md markdown file.
+Dans le [référentiel Sandbox](https://github.com/ClimateSmartAgCollab/sandbox) de l'organisation ClimateSmartAgCollab, ou dans votre propre référentiel personnel, vous pouvez modifier le fichier markdown readme.md.
 
-![GitHub file options](../assets/images/github_file_options.png)
+![Options du fichier GitHub](../assets/images/github_file_options.png)
 
-In the purple box, from left to right, Raw=look at the raw code not the nicely formatted version you are currently seeing, two boxes=copy, down-arrow=download the file and the pencil lets you edit the file.
+Dans la case violette, de gauche à droite, Raw=regardez le code brut et non la version bien formatée que vous voyez actuellement, deux cases=copier, flèche vers le bas=télécharger le fichier et le crayon vous permet de modifier le fichier.
 
-Click on the pencil icon to begin editing the readme markdown file directly in your web browser.
+Cliquez sur l'icône en forme de crayon pour commencer à modifier le fichier markdown readme directement dans votre navigateur Web.
+
+![Écriture markdown](../assets/images/github_writing_markdown.png)
+
+Vous trouverez ici du texte écrit en Markdown. Si vous cliquez sur le bouton d'aperçu, vous pouvez prévisualiser la façon dont le markdown sera formaté. Essayez d'ajouter votre nom et votre animal préféré au tableau. Si le tableau n'est pas là, regardez comment il est écrit dans l'image ci-dessus et recréez-le.
+
+Vous pouvez en savoir plus sur l'écriture en markdown sur la [page GitHub Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+### Enregistrement sur la page Web GitHub
+Enfin, comment enregistrer vos résultats dans GitHub ?
+
+Dans l'interface Web, le bouton vert « Valider les modifications... » permet de sauvegarder votre travail. En cliquant sur le bouton « Valider les modifications... », la boîte de dialogue Valider les modifications apparaît (illustrée ci-dessous).
+
+![Boîte de dialogue Valider les modifications](../assets/images/github_commit_changes.png)
+
+Étant donné que GitHub est un environnement très collaboratif, lorsque vous validez les modifications, vous pouvez écrire des messages à la communauté sur les modifications que vous avez apportées et sur les raisons qui vous ont motivées. Parfois, si vous devez annuler un travail, il peut être très utile d'avoir de bons messages de validation et de bonnes descriptions. Dans un environnement de développement encore plus formalisé où les validations doivent être examinées avant d'être acceptées (par exemple lors du développement d'une norme officielle), de bons messages de validation peuvent faciliter le processus d'approbation.
+
+Après avoir écrit votre message et votre description, vous validerez directement dans la branche principale. Vous pouvez accomplir beaucoup de choses dans GitHub en utilisant uniquement la branche principale. Les branches sont un excellent outil lorsque vous souhaitez avoir votre document principal et officiel sur Main, et vous pouvez créer des branches lorsque vous souhaitez travailler sur la prochaine version avant qu'elle ne devienne officielle.
+
+Validez vos modifications directement sur la branche principale et appuyez sur le bouton vert « Valider les modifications » pour enregistrer votre travail dans GitHub. Vous et toutes les autres personnes ayant accès au référentiel pouvez désormais consulter votre travail.
+
+## Création de nouveaux fichiers et dossiers dans la page Web GitHub
+
+Sur la page de code principale de GitHub (cliquez sur <>Code en haut de la page pour y accéder), vous pouvez ajouter des fichiers soit en créant un nouveau fichier (un nouveau fichier texte), soit en téléchargeant un fichier. Donnez un nom à votre nouveau fichier dans la case « Nommez votre fichier... » et une extension de nom de fichier (par exemple .md pour un fichier markdown).
+
+Dans la case « Nommez votre fichier … », vous pouvez également modifier le dossier dans lequel vous souhaitez placer votre nouveau fichier. Si vous souhaitez que votre nouveau fichier `filename.seq` soit dans un dossier/répertoire appelé « séquences », saisissez `sequences/filename.seq`. Lorsque vous saisissez la barre oblique /, vous créez automatiquement le nouveau dossier/répertoire.
+
+Oups, vous avez peut-être mal orthographié le nom de votre dossier, comment l'annuler ? Vous pouvez revenir en arrière à partir du début du nom de fichier ou saisir `../` dans la case « Nommez votre fichier … » (rappelez-vous que les doubles points `..` signifient remonter d'un répertoire), et vous remonterez d'un niveau de dossier et vous pourrez maintenant saisir correctement le nom de votre dossier.
+
+Si vous avez téléchargé une image et que vous souhaitez la placer dans le dossier des images, vous devez attendre qu'elle soit téléchargée. Cliquez ensuite sur l'icône en forme de crayon pour modifier le fichier. Vous ne pouvez pas modifier directement le fichier image car il s'agit d'un fichier binaire, mais vous pouvez modifier le nom. Ajoutez au début de votre nom de fichier `images/` et vous placerez votre fichier dans un nouveau répertoire d'images.
+
+- écrit par Carly Huitema
 
 
-![Writing markdown](../assets/images/github_writing_markdown.png)
 
-Here you can find some text written in Markdown. If you click on the preview button you can preview how the markdown will be formatted. Try to add your name and favorite animal to the table. If the table isn't there, look at how it is written in the picture above and recreate it.
 
-You can learn more about writing in markdown on the [GitHub Markdown page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Saving in GitHub webpage
-Finally, how do you Save your results in GitHub?
-
-In the web interface, the green `Commit Changes...` button performs the function of saving your work. Clicking on the `Commit Changes...` button pulls up the Commit Changes box (pictured below).
-
-![Commit changes box](../assets/images/github_commit_changes.png)
-
-Because GitHub is such a collaborative environment, when you Commit Changes, you can write messages to the community about what changes you made and any reasoning. Sometimes if you need to undo work it can be very helpful to have good commit messages and descriptions. In an even more formalized environment of development where commits must be reviewed before being accepted (e.g. when developing an official standard) good commit messages can help the approval process.
-
-After you have written your message and description you will Commit directly to the main branch. You can accomplish a lot in GitHub only ever using the Main branch. Branches are a great tool when you want to have your main, official document on Main, and you can create branches when you want to work on the next version before it becomes official.
-
-Commit your changes directly to the main brance and press the green button `Commit Changes` to save your work in GitHub. Now you and everyone else with access to the repository can view your work.
-
-## Creating new files and folders in GitHub webpage
-
-On the main code page of GitHub (click on <>Code at the top of the page to get there) you can add files either by creating a new file (a new text file) or by uploading a file. Give your new file a name in the "Name your file..." box and a filename extensions (e.g. .md for a markdown file).
-
-In the "Name your file..." box you can also change what folder you want your new file to be in. If you want your new `filename.seq` file to be in a folder/directory called "sequences", type `sequences/filename.seq`. As you type the forward slash / you will automatically create the new folder/directory.
-
-Oops, maybe you mispelled your folder name, how do you undo it? You can backspace from the beginning of the filename, or type `../` into the "Name your file..." box (remember the double dots `..` means go up a directory),and you will go up one folder level and now you can type your folder name correctly. 
-
-If you uploaded a picture and you want to put it in the pictures folder you have to wait until after it is uploaded. Then, click on the pencil icon to edit the file. You can't edit the image file directly because it is a binary file, but you can change the name. Add to the front of your filename `images/` and you will put your file in a new images directory.
-
-- written by Carly Huitema
