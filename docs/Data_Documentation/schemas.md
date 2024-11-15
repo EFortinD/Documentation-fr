@@ -1,25 +1,25 @@
 ---
 layout: default
-title: Schemas
-parent: Data Documentation
+title: Schémas
+parent: Documentation des données
 nav_order: 2
 ---
 
-# Data Schemas
+# Schémas de données
 
-A schema describes the structure of the data. A good schema will tell you what the column labels are and what they mean. It will tell you the units and it will tell you what type of data is in each column.
+Un schéma décrit la structure des données. Un bon schéma vous indiquera ce que sont les libellés des colonnes et ce qu'ils signifient. Il vous indiquera les unités et le type de données contenues dans chaque colonne.
 
-To help you understand and use the data you need a well documented data schema. 
+Pour vous aider à comprendre et à utiliser les données, vous avez besoin d'un schéma de données bien documenté.
 
-![A dataset and its schema](../assets/images/attributes_labels_english.PNG)
+![Un ensemble de données et son schéma](../assets/images/attributes_labels_english.PNG)
 
-Better data schemas aid researchers in sharing data with the research community. Better documentation enables researchers to effectively communicate the context of the data to other users, ensuring that the information is used accurately. This is especially valuable in cross-disciplinary research where other users are less familiar with the conventions of a particular discipline.
+De meilleurs schémas de données aident les chercheurs à partager les données avec la communauté scientifique. Une meilleure documentation permet aux chercheurs de communiquer efficacement le contexte des données à d'autres utilisateurs, garantissant ainsi que les informations sont utilisées avec précision. Cela est particulièrement utile dans la recherche interdisciplinaire où les autres utilisateurs sont moins familiarisés avec les conventions d'une discipline particulière.
 
 {: .highlight }
-Documenting your data with a schema makes it more FAIR.
+Documenter vos données avec un schéma les rend plus ÉQUITABLES.
 
-Formalized, machine-readable schemas are very useful and can be expressed in a number of languages including LinkML, Overlays Capture Architecture (OCA), JSON Schema, XML Schema Definition, and JSON-LD. Different schema languages have different benefits but the biggest advantage of using any schema language to document a schema is that the schema is documented and in a machine-readable format.  Schemas also facilitiate application interface (API) development and exposes the structural information that enables users to query datasets directly.
+Les schémas formalisés et lisibles par machine sont très utiles et peuvent être exprimés dans un certain nombre de langages, notamment LinkML, Overlays Capture Architecture (OCA), JSON Schema, XML Schema Definition et JSON-LD. Différents langages de schéma présentent différents avantages, mais le plus grand avantage de l'utilisation de n'importe quel langage de schéma pour documenter un schéma est que le schéma est documenté et dans un format lisible par machine. Les schémas facilitent également le développement d'interfaces d'application (API) et exposent les informations structurelles qui permettent aux utilisateurs d'interroger directement les ensembles de données.
 
-With a machine-readable schema you can use it for many other tasks including data verification, data entry and data harmonization. For example, the [Semantic Engine](https://www.semanticengine.org) helps researchers write their own data schemas using the OCA schema language. The [Data Harmonizer](https://github.com/cidgoh/DataHarmonizer) uses custom LinkML schemas to let researchers edit and validate tabular data according to the LinkML schema.  
+Avec un schéma lisible par machine, vous pouvez l'utiliser pour de nombreuses autres tâches, notamment la vérification, la saisie et l'harmonisation des données. Par exemple, le [moteur sémantique](https://www.semanticengine.org) aide les chercheurs à écrire leurs propres schémas de données à l'aide du langage de schéma OCA. Le [Data Harmonizer](https://github.com/cidgoh/DataHarmonizer) utilise des schémas LinkML personnalisés pour permettre aux chercheurs de modifier et de valider des données tabulaires selon le schéma LinkML.
 
-- written by Carly Huitema
+- écrit par Carly Huitema

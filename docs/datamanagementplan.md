@@ -1,27 +1,27 @@
 ---
 layout: default
-title: Data Management Plans
+title: Plans de gestion des données
 nav_order: 2
 ---
 
-# Data Management Plans
+# Plans de gestion des données
 
-All research projects for the Genome Canada's Climate-Smart Agriculture and Food Systems Initiative have created a Data Management Plan (DMP) using the [DMP Assistant of Portage](https://dmp-pgd.ca/).
+Tous les projets de recherche de l'Initiative pour des systèmes agricoles et alimentaires intelligents face au climat de Génome Canada ont créé un plan de gestion des données (PGD) à l'aide de l'[Assistant PGD de Portage](https://dmp-pgd.ca/).
 
 {: .highlight }
-Share contents of your DMP with your team so all your project members know data management expectations.
+Partagez le contenu de votre PGD avec votre équipe afin que tous les membres de votre projet connaissent les attentes en matière de gestion des données.
 
-Data Management Plans are one of the foundations of good research data management (RDM), an international best practice, and increasingly required by institutions and funders, including the Canadian Tri-Agencies as outlined in their Research Data Management Policy. 
+Les plans de gestion des données sont l'un des fondements d'une bonne gestion des données de recherche (GDR), une pratique exemplaire internationale, et de plus en plus exigés par les institutions et les bailleurs de fonds, y compris les trois organismes canadiens, comme indiqué dans leur politique de gestion des données de recherche.
 
-Data Management Plans contain important information for project participants such as how to name files, how and where to save data securely, what file formats to use, and what are relevant ethical and legal compliance considerations. 
+Les plans de gestion des données contiennent des informations importantes pour les participants au projet, comme la façon de nommer les fichiers, comment et où enregistrer les données en toute sécurité, quels formats de fichier utiliser et quelles sont les considérations de conformité éthique et légale pertinentes.
 
-Be sure that all team members working in the project have the relevant information from the DMP, for example, that they know the file naming conventions. This information can be shared directly by making the DMP available, or it can be used to generate a lab and project data Standard Operating Procedure (SOP). The SOP acts like the syllabus for a course; it outlines the data essentials and expectations for the lab and/or project.
+Assurez-vous que tous les membres de l'équipe travaillant sur le projet disposent des informations pertinentes du DMP, par exemple qu'ils connaissent les conventions de dénomination des fichiers. Ces informations peuvent être partagées directement en mettant le DMP à disposition, ou elles peuvent être utilisées pour générer une procédure opérationnelle standard (SOP) pour les données de laboratoire et de projet. La SOP agit comme le programme d'un cours ; elle décrit les éléments essentiels des données et les attentes pour le laboratoire et/ou le projet.
 
-Data Management Plans are living documents, they are expected to be updated and changed throughout the lifecycle of the project. The PDF versions of the DMP exported from Porage DMP Assistant contain the last modified date to help researchers identify which revision they are referencing.
+Les plans de gestion des données sont des documents vivants, ils doivent être mis à jour et modifiés tout au long du cycle de vie du projet. Les versions PDF du DMP exportées depuis Porage DMP Assistant contiennent la date de la dernière modification pour aider les chercheurs à identifier la révision à laquelle ils font référence.
 
-## Samples of lab data SOPs
+## Exemples de procédures opérationnelles standard (SOP) pour les données de laboratoire
 
-* [Schulte Moore Lab Data Management SOP](https://faculty.sites.iastate.edu/lschulte/lab-data-and-file-management-sops)
-* [Duke School of Medicine sample data SOP template (pdf)](https://medschool.duke.edu/sites/default/files/2021-10/data_management_sop_guidance_shared_resource.pdf)
+* [SOP de gestion des données de laboratoire Schulte Moore](https://faculty.sites.iastate.edu/lschulte/lab-data-and-file-management-sops)
+* [Modèle de SOP de données d'échantillon de la Duke School of Medicine (pdf)](https://medschool.duke.edu/sites/default/files/2021-10/data_management_sop_guidance_shared_resource.pdf)
 
-- written by Carly Huitema
+- rédigé par Carly Huitema

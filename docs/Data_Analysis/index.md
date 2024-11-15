@@ -1,24 +1,24 @@
 ---
 layout: default
-title: Data Analysis
+title: Analyse des données
 nav_order: 7
 ---
 
-# Data Analysis
+# Analyse des données
 
-## Data Management
+## Gestion des données
 
-Always save your raw data in its original format.  The [TIER protocol](https://www.projecttier.org/tier-protocol/protocol-4-0/) provides an example of how to work with raw and analyzed data.
+Enregistrez toujours vos données brutes dans leur format d'origine. Le [protocole TIER](https://www.projecttier.org/tier-protocol/protocol-4-0/) fournit un exemple de la façon de travailler avec des données brutes et analysées.
 
 {: .highlight }
-Never write over your raw data with cleaned or analyzed data.
+N'écrasez jamais vos données brutes avec des données nettoyées ou analysées.
 
-Using scripts to perform all your data analysis on (copied) raw data is the most reusable and reproducible method to analyze data.
+L'utilisation de scripts pour effectuer toutes vos analyses de données sur des données brutes (copiées) est la méthode la plus réutilisable et reproductible pour analyser les données.
 
-## Project file organization
+## Organisation des fichiers de projet
 
-Consider specifying file organization (in addition to file naming) conventions. The [TIER protocol](https://www.projecttier.org/tier-protocol/protocol-4-0/) may be a resource to consider for setting up project file structures.
+Envisagez de spécifier des conventions d'organisation des fichiers (en plus de la dénomination des fichiers). Le [protocole TIER](https://www.projecttier.org/tier-protocol/protocol-4-0/) peut être une ressource à prendre en compte pour la configuration des structures de fichiers de projet.
 
-Documentation that meets the specifications of the TIER Protocol contains all the data, scripts, and supporting information necessary to enable you, your instructor, or an interested third party to reproduce all the computations necessary to generate the results you present in the report you write about your project.
+La documentation conforme aux spécifications du protocole TIER contient toutes les données, scripts et informations complémentaires nécessaires pour vous permettre, à vous, à votre instructeur ou à un tiers intéressé, de reproduire tous les calculs nécessaires pour générer les résultats que vous présentez dans le rapport que vous rédigez sur votre projet.
 
-- written by Carly Huitema
+- écrit par Carly Huitema

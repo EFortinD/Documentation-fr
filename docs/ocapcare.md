@@ -1,15 +1,15 @@
 ---
 layout: default
-title: OCAP and CARE
+title: OCAP et CARE
 nav_order: 8
 ---
 
-# OCAP and CARE Principles
+# Principes OCAP et CARE
 
-## Resources
+## Ressources
 
-[Indigenous Data Sovereignty: Moving Toward Self-Determination and a Future of Good Data](https://ecampusontario.pressbooks.pub/canadardm/chapter/indigenous-data-sovereignty/)
+[Souveraineté des données autochtones : Vers l'autodétermination et un avenir de bonnes données](https://ecampusontario.pressbooks.pub/canadardm/chapter/indigenous-data-sovereignty/)
 
-[Fundamentals of OCAP training course](https://fnigc.ca/ocap-training/take-the-course/) - costs ~$500 CAD per individual.
+[Cours de formation sur les principes fondamentaux de OCAP](https://fnigc.ca/ocap-training/take-the-course/) - coûte environ 500 $ CA par personne.
 
-[CARE Principles](https://www.gida-global.org/care)
+[Principes CARE](https://www.gida-global.org/care)

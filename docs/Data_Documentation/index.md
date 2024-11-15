@@ -1,28 +1,28 @@
 ---
 layout: default
-title: Data Documentation
+title: Documentation des données
 nav_order: 4
 ---
 
-# Documenting Data 
+# Documentation des données
 
-Documenting data for research is essential for FAIR data. Proper data documentation makes it easier for both the original researchers and others to analyze, share, or replicate the findings. 
+La documentation des données pour la recherche est essentielle pour les données FAIR. Une documentation appropriée des données permet aux chercheurs d'origine et aux autres d'analyser, de partager ou de reproduire plus facilement les résultats.
 
-Without clear documentation, future users may misinterpret the data. Well-documented data facilitates collaboration and data sharing across research teams, as standardized documentation makes it easier to integrate datasets into broader research contexts.
+Sans documentation claire, les futurs utilisateurs peuvent mal interpréter les données. Des données bien documentées facilitent la collaboration et le partage des données entre les équipes de recherche, car une documentation standardisée facilite l'intégration des ensembles de données dans des contextes de recherche plus larges.
 
-Another key benefit of documenting data is preserving it for long-term use. As technology, software, and methods evolve, clear documentation ensures that data remains accessible and useful years after it is collected. This is particularly important in large-scale research projects, where multiple datasets may be integrated.
+Un autre avantage clé de la documentation des données est leur conservation pour une utilisation à long terme. À mesure que la technologie, les logiciels et les méthodes évoluent, une documentation claire garantit que les données restent accessibles et utiles des années après leur collecte. Cela est particulièrement important dans les projets de recherche à grande échelle, où plusieurs ensembles de données peuvent être intégrés.
 
-Some Considerations for Documenting Data
+Quelques considérations pour la documentation des données
 
-* **Vocabularies and Ontologies**: Use structured vocabularies and standardized ontologies (e.g., GO for gene products, MIAME for microarrays) to ensure consistency and compatibility across research projects.
-* **Data Schemas**: Define a clear structure or schema for your data, outlining how the data is organized and how the fields relate to each other.
-* **Metadata**: Include detailed metadata to describe the context, content, and structure of the data (e.g., date of collection, methods used, units of measurement).
-* **Data Filenames**: Use consistent and descriptive filenames that indicate the contents, version, and date, helping users quickly understand what the file contains.
-* **File Formats**: Ensure the data is stored in widely accepted formats (e.g., CSV, JSON, XML) to facilitate long-term accessibility and reusability.
-* **Versioning**: Keep track of changes to the data or its documentation through version control, ensuring that prior versions of the dataset remain available if needed.
-* **Provenance**: Document the data's origin, including how, when, and by whom it was collected, as well as any processing steps applied to it.
-* **Data Licensing**: Provide clear information about how others can use, share, or modify the data, including any applicable licensing terms.
-* **Data Quality Standards**: Indicate any quality control measures applied to the data to ensure accuracy and reliability.
-* **Data Annotations**: Include any relevant annotations or notes that can provide additional insight into the dataset or clarify complex aspects.
+* **Vocabulaires et ontologies** : utilisez des vocabulaires structurés et des ontologies standardisées (par exemple, GO pour les produits génétiques, MIAME pour les microarrays) pour garantir la cohérence et la compatibilité entre les projets de recherche.
+* **Schémas de données** : définissez une structure ou un schéma clair pour vos données, décrivant comment les données sont organisées et comment les champs sont liés les uns aux autres.
+* **Métadonnées** : incluez des métadonnées détaillées pour décrire le contexte, le contenu et la structure des données (par exemple, la date de collecte, les méthodes utilisées, les unités de mesure).
+* **Noms de fichiers de données** : utilisez des noms de fichiers cohérents et descriptifs qui indiquent le contenu, la version et la date, aidant les utilisateurs à comprendre rapidement ce que contient le fichier.
+* **Formats de fichiers** : assurez-vous que les données sont stockées dans des formats largement acceptés (par exemple, CSV, JSON, XML) pour faciliter l'accessibilité et la réutilisation à long terme.
+* **Versioning** : suivez les modifications apportées aux données ou à leur documentation grâce au contrôle des versions, en veillant à ce que les versions précédentes de l'ensemble de données restent disponibles si nécessaire.
+* **Provenance** : documentez l'origine des données, y compris comment, quand et par qui elles ont été collectées, ainsi que toutes les étapes de traitement qui leur ont été appliquées.
+* **Licences des données** : fournissez des informations claires sur la manière dont d'autres peuvent utiliser, partager ou modifier les données, y compris les conditions de licence applicables.
+* **Normes de qualité des données** : indiquez toutes les mesures de contrôle de la qualité appliquées aux données pour garantir l'exactitude et la fiabilité.
+* **Annotations des données** : incluez toutes les annotations ou notes pertinentes qui peuvent fournir des informations supplémentaires sur l'ensemble de données ou clarifier des aspects complexes.
 
-- written by Carly Huitema
+- écrit par Carly Huitema

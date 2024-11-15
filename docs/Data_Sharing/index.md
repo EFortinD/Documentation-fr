@@ -1,36 +1,36 @@
 ---
 layout: default
-title: Data Sharing and Governance
+title: Partage et gouvernance des données
 nav_order: 8
 ---
 
-# Data Sharing and Governance
+# Partage et gouvernance des données
 
-Satisfying FAIR data management principles for data sharing involves several administrative and technical parts including hosting data, providing access permission, and enabling discovery of that data. These services need to be maintained beyond the life of the project.
+La satisfaction des principes de gestion des données FAIR pour le partage des données implique plusieurs aspects administratifs et techniques, notamment l'hébergement des données, l'octroi d'autorisations d'accès et la possibilité de découvrir ces données. Ces services doivent être maintenus au-delà de la durée de vie du projet.
 
 {: .highlight }
-Indigenous data has special governance concerns: For more information, see [OCAP & CARE](https://climatesmartagcollab.github.io/Documentation-en/ocapcare.html).
+Les données autochtones suscitent des préoccupations particulières en matière de gouvernance : pour plus d'informations, consultez [OCAP & CARE](https://climatesmartagcollab.github.io/Documentation-en/ocapcare.html).
 
-### Governance:
+### Gouvernance :
 
-* Identifying a person or team responsible for managing project shared data specifications, storage and access.
-  * This includes the responsibility of determining what shared data is as a subset of raw or analyzed project data.
-  * Data privacy and anonymization requirements need to be defined.
-* Making clear how project data may be used and what attribution is required, if any.
-  * Data licensing and governance documentation need to be provided.
-* Identify contact role(s) and processes within an organization for handling access requests.
-* It may be possible to pre-define data usage agreements between trusted parties.
-  
-### Hosting:
+* Identifier une personne ou une équipe responsable de la gestion des spécifications, du stockage et de l'accès aux données partagées du projet.
+* Cela comprend la responsabilité de déterminer quelles sont les données partagées en tant que sous-ensemble de données de projet brutes ou analysées.
+* Les exigences en matière de confidentialité et d'anonymisation des données doivent être définies.
+* Clarifier la manière dont les données du projet peuvent être utilisées et quelle attribution est requise, le cas échéant.
+* La documentation sur les licences et la gouvernance des données doit être fournie.
+* Identifier les rôles et les processus de contact au sein d'une organisation pour le traitement des demandes d'accès.
+* Il peut être possible de prédéfinir des accords d'utilisation des données entre des parties de confiance.
 
-* Determining a public or access-controlled repository to host project data. We recommend
-  * [Borealis](https://borealisdata.ca/), the Canadian Dataverse Repository (previously called Dataverse).  See [Data Sharing using Borealis](https://learn.scholarsportal.info/modules/portage/dataverse-101-module-1/) for an introduction to data sharing and the Borealis platform.
-* Ensuring Secure (tamperproof) upload and download of data.
-* Implementing and maintaining access control as necessary.
+### Hébergement :
 
-### Data Discovery:
+* Déterminer un référentiel public ou à accès contrôlé pour héberger les données du projet. Nous recommandons
+* [Borealis](https://borealisdata.ca/), le référentiel canadien Dataverse (anciennement appelé Dataverse). Voir [Partage de données à l'aide de Borealis](https://learn.scholarsportal.info/modules/portage/dataverse-101-module-1/) pour une introduction au partage de données et à la plateforme Borealis.
+* Assurer un téléchargement et un téléchargement sécurisés (inviolables) des données.
+* Mettre en œuvre et maintenir un contrôle d'accès si nécessaire.
 
-* Utilizing FAIR data catalogues to enable researchers to become aware of project datasets in terms of available data types, fields, size of content, and even experimental designs that lead to the content. Providing this information usually benefits from dataset scheme and standardization work.
-  * https://fairsharing.org/
- 
-Author: Damion Dooley
+### Découverte de données :
+
+* Utiliser les catalogues de données FAIR pour permettre aux chercheurs de prendre connaissance des ensembles de données du projet en termes de types de données disponibles, de champs, de taille de contenu et même de modèles expérimentaux qui mènent au contenu. La fourniture de ces informations bénéficie généralement d'un travail de normalisation et de schéma d'ensemble de données.
+* https://fairsharing.org/
+
+Auteur : Damion Dooley
