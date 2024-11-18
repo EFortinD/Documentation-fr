@@ -11,7 +11,7 @@ Toutes les équipes interdisciplinaires de défi (EID), de l'Initiative pour des
 {: .highlight }
 Partagez le contenu de votre PGD avec votre équipe afin que tous les membres de votre projet connaissent les attentes en matière de gestion des données.
 
-Les plans de gestion des données sont l'un des fondements d'une bonne gestion des données de recherche (GDR), une pratique exemplaire internationale, et de plus en plus exigés par les institutions et les bailleurs de fonds, y compris les trois organismes canadiens, comme indiqué dans leur politique de gestion des données de recherche.
+Les plans de gestion des données sont l'un des fondements d'une bonne gestion des données de recherche (GDR), une pratique exemplaire internationale, et de plus en plus exigés par les institutions et les bailleurs de fonds, y compris les trois principaux organismes subventionnaires canadiens, comme indiqué dans leur politique de gestion des données de recherche.
 
 Les plans de gestion des données contiennent des informations importantes pour les participants au projet, comme la façon de nommer les fichiers, comment et où enregistrer les données en toute sécurité, quels formats de fichier utiliser et quelles sont les considérations de conformité éthique et légale pertinentes.
 
