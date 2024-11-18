@@ -5,9 +5,9 @@ nav_order: 1
 ---
 # Bienvenue sur le site de documentation
 
-Ici, sont rassemblées les ressources qui seront utiles aux membres du Data Hub.
+Ici, sont rassemblées les ressources qui seront utiles aux membres du Centre de données (*Data Hub*).
 
-Si vous souhaitez voir plus de contenu hébergé ici, faites-le nous savoir dans le forum de discussion du Data Hub.
+Si vous souhaitez voir plus de contenu hébergé ici, faites-le nous savoir dans le forum de discussion du Centre de données.
 
 # Les principes FAIR pour les données
 
