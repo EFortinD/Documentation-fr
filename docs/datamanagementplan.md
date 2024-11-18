@@ -6,7 +6,7 @@ nav_order: 2
 
 # Plans de gestion des données
 
-Toutes les équipes interdisciplinaires de défi (EID), de l'Initiative pour des systèmes agricoles et alimentaires intelligents face au climat de Génome Canada, ont créé un plan de gestion des données (PGD) à l'aide de l'[Assistant PGD de l'Alliance de recherche numérique du Canada](https://dmp-pgd.ca/).
+Toutes les équipes interdisciplinaires de défi (EID), de l'Initiative pour des systèmes agricoles et alimentaires intelligents face au climat de Génome Canada, ont créé un plan de gestion des données (PGD) à l'aide de l'[Assistant PGD de l'Alliance de Recherche Numérique du Canada](https://dmp-pgd.ca/).
 
 {: .highlight }
 Partagez le contenu de votre PGD avec votre équipe afin que tous les membres de votre projet connaissent les attentes en matière de gestion des données.
