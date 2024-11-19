@@ -19,7 +19,7 @@ Quelques considérations pour la documentation des données
 * **Métadonnées** : incluez des métadonnées détaillées pour décrire le contexte, le contenu et la structure des données (par exemple, la date de collecte, les méthodes utilisées, les unités de mesure).
 * **Noms de fichiers de données** : utilisez des noms de fichiers cohérents et descriptifs qui indiquent le contenu, la version et la date, aidant les utilisateurs à comprendre rapidement ce que contient le fichier.
 * **Formats de fichiers** : assurez-vous que les données sont stockées dans des formats largement acceptés (par exemple, CSV, JSON, XML) pour faciliter l'accessibilité et la réutilisation à long terme.
-* **Versioning** : suivez les modifications apportées aux données ou à leur documentation grâce au contrôle des versions, en veillant à ce que les versions précédentes de l'ensemble de données restent disponibles si nécessaire.
+* **Versionnage** : suivez les modifications apportées aux données ou à leur documentation grâce au contrôle des versions, en veillant à ce que les versions précédentes de l'ensemble de données restent disponibles si nécessaire.
 * **Provenance** : documentez l'origine des données, y compris comment, quand et par qui elles ont été collectées, ainsi que toutes les étapes de traitement qui leur ont été appliquées.
 * **Licences des données** : fournissez des informations claires sur la manière dont d'autres peuvent utiliser, partager ou modifier les données, y compris les conditions de licence applicables.
 * **Normes de qualité des données** : indiquez toutes les mesures de contrôle de la qualité appliquées aux données pour garantir l'exactitude et la fiabilité.
