@@ -6,10 +6,10 @@ nav_order: 8
 
 # Partage et gouvernance des données
 
-La satisfaction des principes de gestion des données FAIR pour le partage des données implique plusieurs aspects administratifs et techniques, notamment l'hébergement des données, l'octroi d'autorisations d'accès et la possibilité de découvrir ces données. Ces services doivent être maintenus au-delà de la durée de vie du projet.
+Satisfaire les principes de gestion des données FAIR pour le partage des données implique plusieurs aspects administratifs et techniques, notamment l'hébergement des données, l'octroi d'autorisations d'accès et la possibilité de découvrir ces données. Ces services doivent être maintenus au-delà de la durée de vie du projet.
 
 {: .highlight }
-Les données autochtones suscitent des préoccupations particulières en matière de gouvernance : pour plus d'informations, consultez [OCAP & CARE](https://climatesmartagcollab.github.io/Documentation-en/ocapcare.html).
+Les données autochtones suscitent des préoccupations particulières en matière de gouvernance : pour plus d'informations, consultez [OCAP & CARE](https://climatesmartagcollab.github.io/Documentation-fr/ocapcare.html).
 
 ### Gouvernance :
 
