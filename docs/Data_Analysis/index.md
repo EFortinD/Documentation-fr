@@ -8,7 +8,7 @@ nav_order: 7
 
 ## Gestion des données
 
-Enregistrez toujours vos données brutes dans leur format d'origine. Le [protocole TIER](https://www.projecttier.org/tier-protocol/protocol-4-0/) fournit un exemple de la façon de travailler avec des données brutes et analysées.
+Enregistrez toujours vos données brutes dans leur format d'origine. Le [protocole TIER](https://www.projecttier.org/tier-protocol/protocol-4-0/) (en anglais) fournit un exemple de la façon de travailler avec des données brutes et analysées.
 
 {: .highlight }
 N'écrasez jamais vos données brutes avec des données nettoyées ou analysées.

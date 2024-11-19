@@ -20,13 +20,13 @@ Publiés en 2016, les principes directeurs FAIR aident les chercheurs à amélio
 Ce site de documentation fournit des ressources pour aider les chercheurs à améliorer l’aspect FAIR de leurs résultats de recherche.
 
 {: .highlight }
-Le manuel numérique gratuit [Gestion des données de recherche dans le contexte canadien (2023)](https://ecampusontario.pressbooks.pub/canadardm/) est une ressource excellente et complète.
+Le manuel numérique gratuit (en anglais) [Gestion des données de recherche dans le contexte canadien (2023)](https://ecampusontario.pressbooks.pub/canadardm/) est une ressource excellente et complète.
 
 
 ## Ressources FAIR
 * Manuel numérique gratuit [Gestion des données de recherche dans le contexte canadien](https://ecampusontario.pressbooks.pub/canadardm/)
 * Site officiel de [GO-FAIR](https://www.go-fair.org/fair-principles/)
 * L’EOSC a publié un [site de ressources](https://catalogue.fair-impact.eu/resources) pour aider à trouver des moyens de mettre en œuvre les principes FAIR.
-* [L'Alliance de recherche numérique du Canada propose de nombreux liens vers des ressources de formation](https://alliancecan.ca/en/services/research-data-management/learning-and-training/training-resources) qui seraient utiles aux chercheurs.
+* L'Alliance de recherche numérique du Canada propose de nombreux liens vers des [ressources de formation en français](https://alliancecan.ca/fr/services/gestion-des-donnees-de-recherche/apprentissage-et-ressources/ressources-de-formation) qui seraient utiles aux chercheurs.
 
 - écrit par Carly Huitema
