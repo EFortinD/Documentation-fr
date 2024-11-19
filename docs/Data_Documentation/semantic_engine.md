@@ -16,7 +16,7 @@ nav_order: 3
 
 Tous les ensembles de données ont un schéma, implicite ou explicite. L'objectif du moteur sémantique est de prendre vos connaissances des données et de les documenter explicitement à l'aide d'un schéma.
 
-Pour écrire facilement des schémas lisibles par machine dans le langage de schéma OCA, l'organisation Agri-food Data Canada de l'Université de Guelph a développé une interface utilisateur conviviale pour documenter les données et utiliser les schémas qui ont été générés.
+Pour écrire facilement des schémas lisibles par machine dans le langage de schéma OCA, l'organisation *Agri-food Data Canada (ADC)* de l'Université de Guelph a développé une interface utilisateur conviviale pour documenter les données et utiliser les schémas qui ont été générés.
 
 ## Utilisation du moteur sémantique
 
@@ -57,6 +57,6 @@ Stockez ensemble la version groupée du schéma lisible par machine et la versio
 
 Le projet Data Hub de Génome Canada crée une [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/) dans le cadre de son mandat visant à aider à l'harmonisation des données et à la création de normes de données entre les membres du projet.
 
-Après avoir créé votre schéma de données à l'aide du moteur sémantique, vous pouvez télécharger votre bundle de schémas lisible par machine et générer le fichier readme Markdown. Sélectionnez le scénario Data Hub pour ajouter le nom de votre équipe ICT, l'auteur du schéma et l'adresse e-mail afin que votre schéma soit correctement trié dans la bibliothèque et que les autres membres de Data Hub puissent voir quelles données vous produisez.
+Après avoir créé votre schéma de données à l'aide du moteur sémantique, vous pouvez télécharger votre bundle de schémas lisible par machine et générer le fichier readme Markdown. Sélectionnez le scénario *Data Hub* pour ajouter le nom de votre équipe EID, l'auteur du schéma et l'adresse e-mail afin que votre schéma soit correctement trié dans la bibliothèque et que les autres membres de Data Hub puissent voir quelles données vous produisez.
 
 - écrit par Carly Huitema
