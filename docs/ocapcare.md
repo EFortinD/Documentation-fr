@@ -6,7 +6,7 @@ nav_order: 8
 
 # Principes PCAP
 
-Les principes de Propriété, Contrôle, Accès et Possession (PCAP ou *OCAP* en anglais) 
+Les principes de Propriété, Contrôle, Accès et Possession (PCAP® ou *OCAP®* en anglais) 
 affirment que les Premières Nations ont le contrôle des processus de collecte de données 
 et qu'elles possèdent et contrôlent la manière dont ces informations peuvent être utilisées.
 [Obtenez plus d'informations sur les principes de PCAP](https://fnigc.ca/fr/les-principes-de-pcap-des-premieres-nations/)
@@ -37,7 +37,7 @@ données dans la promotion de l'innovation et de l'autodétermination autochtone
 principes complètent les principes FAIR existants, qui encouragent les mouvements de 
 données ouvertes et autres à prendre en compte à la fois les personnes et les objectifs 
 dans leurs activités de plaidoyer et de recherche.
-(Ce texte a été tiré d'une traduction avec DeepL du site https://www.gida-global.org/care)
+(Ce texte a été tiré d'une traduction avec DeepL du [site officiel de CARE](https://www.gida-global.org/care))
 
 ## Ressources
 
