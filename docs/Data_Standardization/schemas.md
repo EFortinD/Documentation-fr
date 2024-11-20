@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Standardisation des schémas de données
-parent: Standardisation des données
+parent: Normalisation des données
 nav_order: 2
 ---
 
