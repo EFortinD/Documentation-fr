@@ -6,10 +6,10 @@ nav_order: 8
 
 # Partage et gouvernance des données
 
-La satisfaction des principes de gestion des données FAIR pour le partage des données implique plusieurs aspects administratifs et techniques, notamment l'hébergement des données, l'octroi d'autorisations d'accès et la possibilité de découvrir ces données. Ces services doivent être maintenus au-delà de la durée de vie du projet.
+Satisfaire les principes de gestion des données FAIR pour le partage des données implique plusieurs aspects administratifs et techniques, notamment l'hébergement des données, l'octroi d'autorisations d'accès et la possibilité de découvrir ces données. Ces services doivent être maintenus au-delà de la durée de vie du projet.
 
 {: .highlight }
-Les données autochtones suscitent des préoccupations particulières en matière de gouvernance : pour plus d'informations, consultez [OCAP & CARE](https://climatesmartagcollab.github.io/Documentation-en/ocapcare.html).
+Les données autochtones suscitent des préoccupations particulières en matière de gouvernance : pour plus d'informations, consultez [OCAP & CARE](https://climatesmartagcollab.github.io/Documentation-fr/ocapcare.html).
 
 ### Gouvernance :
 
@@ -23,8 +23,8 @@ Les données autochtones suscitent des préoccupations particulières en matièr
 
 ### Hébergement :
 
-* Déterminer un référentiel public ou à accès contrôlé pour héberger les données du projet. Nous recommandons
-* [Borealis](https://borealisdata.ca/), le référentiel canadien Dataverse (anciennement appelé Dataverse). Voir [Partage de données à l'aide de Borealis](https://learn.scholarsportal.info/modules/portage/dataverse-101-module-1/) pour une introduction au partage de données et à la plateforme Borealis.
+* Déterminer un référentiel public ou à accès contrôlé pour héberger les données du projet. À cet effet, nous recommandons
+	* [Borealis](https://borealisdata.ca/), le référentiel canadien Dataverse (anciennement appelé Dataverse). Voir [Partage de données à l'aide de Borealis](https://learn.scholarsportal.info/modules/portage/dataverse-101-module-1/) pour une introduction au partage de données et à la plateforme Borealis.
 * Assurer un téléchargement et un téléchargement sécurisés (inviolables) des données.
 * Mettre en œuvre et maintenir un contrôle d'accès si nécessaire.
 

@@ -18,7 +18,7 @@ Les branches dans GitHub permettent aux équipes de travailler simultanément su
 
 ## Un scénario avec ramification
 
-Examinez ce scénario, puis lisez la suite pour en savoir plus : vous collaborez au développement d'une norme (comme un vocabulaire contrôlé). Votre groupe a déjà publié une version et vous travaillez sur la prochaine version qui se trouve sur sa propre branche « prochaine version ». Pour effectuer vos modifications, vous créez d'abord votre branche d'édition à partir de cette branche de prochaine version et effectuez les modifications. Vous validez vos modifications dans votre branche, puis vous faites une demande d'extraction (Pull Request, PR) pour que vos modifications soient acceptées dans la branche de prochaine version. Lors de la prochaine révision programmée, votre groupe passe en revue toutes les PR, lit les descriptions, examine les modifications et décide s'il acceptera les modifications ou renverra le travail avec des commentaires. Vos modifications sont acceptées et votre branche est fusionnée dans la branche de prochaine version. Lorsque la branche de prochaine version est finalisée, vous publierez la prochaine version de votre vocabulaire contrôlé à partir de ce travail.
+Examinez ce scénario, puis lisez la suite pour en savoir plus : vous collaborez au développement d'une norme (comme un vocabulaire contrôlé). Votre groupe a déjà publié une version et vous travaillez sur la prochaine version qui se trouve sur sa propre branche « prochaine version ». Pour effectuer vos modifications, vous créez d'abord votre branche d'édition à partir de cette branche de prochaine version et effectuez les modifications. Vous validez vos modifications dans votre branche, puis vous faites une demande de tirage (*Pull Request* ou *PR*) pour que vos modifications soient acceptées dans la branche de prochaine version. Lors de la prochaine révision programmée, votre groupe passe en revue toutes les PR, lit les descriptions, examine les modifications et décide s'il acceptera les modifications ou renverra le travail avec des commentaires. Vos modifications sont acceptées et votre branche est fusionnée dans la branche de prochaine version. Lorsque la branche de prochaine version est finalisée, vous publierez la prochaine version de votre vocabulaire contrôlé à partir de ce travail.
 
 ## Noms de branches
 
@@ -58,17 +58,17 @@ Vous allez maintenant choisir la branche que vous souhaitez fusionner dans la br
 
 ![comparez les modifications avant de commencer la PR](../assets/images/github_compare_for_pr.png)
 
-Pendant que vous avez pris des notes sur chaque commit que vous faites tout au long du processus, lorsqu'il s'agit de la PR, il est temps d'écrire vos commentaires récapitulatifs sur la PR. Rédiger une bonne PR aidera la communauté (ou vous) à comprendre exactement ce que vous faisiez et pourquoi. Sélectionnez « Créer une demande d'extraction ».
+Pendant que vous avez pris des notes sur chaque commit que vous faites tout au long du processus, lorsqu'il s'agit de la PR, il est temps d'écrire vos commentaires récapitulatifs sur la PR. Rédiger une bonne PR aidera la communauté (ou vous) à comprendre exactement ce que vous faisiez et pourquoi. Sélectionnez « Créer une demande de tirage ».
 
 ![Ouvrir une PR](../assets/images/github_open_pr.png)
 
-Vous avez maintenant créé votre demande d'extraction (en supposant que vous n'ayez aucun conflit dont nous parlerons plus tard). Vous pouvez vous arrêter ici et votre demande d'extraction a été ajoutée à la file d'attente des PR. Vous voudrez peut-être vous arrêter ici car c'est le bon moment pour que quelqu'un d'autre révise votre écriture/code. Surtout si vous collaborez sur des documents, quand vient le temps de fusionner avec l'une des branches les plus importantes (comme votre branche principale ou une branche de publication), votre communauté peut vouloir se réunir pour examiner les PR, prendre des décisions quant à savoir s'ils doivent être fusionnés ou renvoyés avec des commentaires pour plus de révisions avant la fusion.
+Vous avez maintenant créé votre demande de tirage (en supposant que vous n'ayez aucun conflit dont nous parlerons plus tard). Vous pouvez vous arrêter ici et votre demande de tirage a été ajoutée à la file d'attente des PR. Vous voudrez peut-être vous arrêter ici car c'est le bon moment pour que quelqu'un d'autre révise votre écriture/code. Surtout si vous collaborez sur des documents, quand vient le temps de fusionner avec l'une des branches les plus importantes (comme votre branche principale ou une branche de publication), votre communauté peut vouloir se réunir pour examiner les PR, prendre des décisions quant à savoir s'ils doivent être fusionnés ou renvoyés avec des commentaires pour plus de révisions avant la fusion.
 
 Si vous effectuez d'autres commits sur une branche après qu'un PR a été effectué, ces commits ultérieurs sont également ajoutés au PR. Si vous souhaitez enregistrer de nouvelles modifications et que vous ne voulez pas qu'elles soient ajoutées au PR ouvert, vous devrez créer une nouvelle branche.
 
 ![Examiner un PR](../assets/images/github_review_PR.png)
 
-## Examiner une demande d'extraction
+## Examiner une demande de tirage
 
 Si vous travaillez en collaboration sur un projet, vous souhaiterez examiner les PR et laisser des commentaires. Si vous n'acceptez pas un PR et pensez que d'autres modifications sont nécessaires, vous pouvez faire ces commentaires et sélectionner « Fermer avec commentaire ».
 
