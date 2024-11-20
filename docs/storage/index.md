@@ -35,7 +35,7 @@ En voici quelques exemples :
 
 Les **référentiels généralistes** ne sont pas spécifiques au type de données de recherche qu'ils hébergent (bien qu'ils aient d'autres limitations telles que la taille de l'ensemble de données).
 
-Au Canada, la plupart des institutions hébergent des référentiels de données généralistes, généralement [Borealis](https://borealisdata.ca/) (qui est dérivé de Dataverse). Des ensembles de données plus volumineux peuvent être stockés dans le [Fedrated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/).
+Au Canada, la plupart des institutions hébergent des référentiels de données généralistes, généralement [Borealis](https://borealisdata.ca/) (qui est dérivé de Dataverse). Des ensembles de données plus volumineux peuvent être stockés dans le [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/).
 
 L'avantage de stocker dans ces dépôts canadiens est que les données peuvent être cataloguées par d'autres services, ce qui rend vos données plus faciles à trouver par d'autres chercheurs. Recherchez des données de recherche canadiennes à l'aide du [moteur de recherche de données Lunaris](https://www.lunaris.ca/).
 
