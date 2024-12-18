@@ -16,11 +16,11 @@ nav_order: 3
 
 Tous les ensembles de données ont un schéma, implicite ou explicite. L'objectif du moteur sémantique est de prendre vos connaissances des données et de les documenter explicitement à l'aide d'un schéma.
 
-Pour écrire facilement des schémas lisibles par machine dans le langage de schéma OCA, l'organisation *Agri-food Data Canada (ADC)* de l'Université de Guelph a développé une interface utilisateur conviviale pour documenter les données et utiliser les schémas qui ont été générés.
+Pour écrire facilement des schémas lisibles par machine dans le langage de schéma [overlays capture architecture](https://oca.colossi.network/)(OCA), l'organisation *Agri-food Data Canada (ADC)* de l'Université de Guelph a développé une interface conviviale pour documenter les données et utiliser les schémas qui ont été générés.
 
 ## Utilisation du moteur sémantique
 
-Le [moteur sémantique](https://www.semanticengine.org) a été développé pour être un site autodirigé permettant aux chercheurs de documenter toutes les données de recherche basées sur des tableaux. Tout au long du site, vous trouverez une documentation utile ainsi qu'une [page Web de didacticiel](https://agrifooddatacanada.github.io/OCA_Composer_help_pages/en/TutorialAll/).
+Le [moteur sémantique](https://www.semanticengine.org) a été développé pour être un site autonome permettant aux chercheuses et chercheurs de documenter toutes les données de recherche basées sur des tableaux. Tout au long du site, vous trouverez une documentation utile ainsi qu'une [page Web de didacticiel](https://agrifooddatacanada.github.io/OCA_Composer_help_pages/en/TutorialAll/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ekMmpx_w45M?si=fZKfGS9Z7QEexCb5" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -48,15 +48,15 @@ Si vous ne souhaitez pas télécharger un ensemble de données, vous pouvez igno
 Stockez votre schéma de plusieurs manières.
 
 1. Stockez un schéma avec votre ensemble de données et partagez-le lorsque vous partagez vos données.
-2. Partagez un schéma avec votre laboratoire ou vos collaborateurs en le stockant dans un lecteur de laboratoire partagé.
-3. Stockez votre schéma en tant qu'objet indépendant dans un référentiel tel que Borealis ou Zenodo.
+2. Partagez un schéma avec votre laboratoire ou les personnes avec qui vous collaborez en le stockant dans un lecteur de laboratoire partagé.
+3. Stockez votre schéma en tant qu'objet indépendant dans un dépôt de données tel que Borealis ou Zenodo.
 
-Stockez ensemble la version groupée du schéma lisible par machine et la version .txt lisible par l'homme pour une meilleure convivialité.
+Stockez ensemble la version groupée du schéma lisible par machine et la version .txt lisible par l'humain pour une meilleure convivialité.
 
 ### Contribuer à la bibliothèque de schémas
 
 Le projet Data Hub de Génome Canada crée une [bibliothèque de schémas](https://climatesmartagcollab.github.io/HUB-Harmonization/) dans le cadre de son mandat visant à aider à l'harmonisation des données et à la création de normes de données entre les membres du projet.
 
-Après avoir créé votre schéma de données à l'aide du moteur sémantique, vous pouvez télécharger votre bundle de schémas lisible par machine et générer le fichier readme Markdown. Sélectionnez le scénario *Data Hub* pour ajouter le nom de votre équipe EID, l'auteur du schéma et l'adresse e-mail afin que votre schéma soit correctement trié dans la bibliothèque et que les autres membres de Data Hub puissent voir quelles données vous produisez.
+Après avoir créé votre schéma de données à l'aide du moteur sémantique, vous pouvez télécharger votre paquet de schémas lisible par machine et générer le fichier readme Markdown. Sélectionnez le scénario *Data Hub* pour ajouter le nom de votre équipe EID, l'authorat du schéma et une adresse e-mail afin que votre schéma soit correctement trié dans la bibliothèque et que les autres membres de Data Hub puissent voir quelles données vous produisez.
 
 - écrit par Carly Huitema
