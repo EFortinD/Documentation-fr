@@ -16,10 +16,10 @@ Il est recommandé d'utiliser la règle 3-2-1 lors de la sauvegarde de vos donn�
 
 De nombreuses ressources sont disponibles pour le stockage des données à la fin d'un projet de recherche.
 
-**Les référentiels spécialisés** sont ceux qui sont dédiés à des types de données spécifiques.
+**Les dépôts de données spécialisés** sont ceux qui sont dédiés à des types de données spécifiques.
 
 En voici quelques exemples :
-1. [GenBank](https://www.ncbi.nlm.nih.gov/genbank/). Un référentiel public complet de séquences d'ADN maintenu par le NCBI, qui soutient la recherche génomique et métagénomique.
+1. [GenBank](https://www.ncbi.nlm.nih.gov/genbank/). Un dépôt public complet de séquences d'ADN maintenu par le National Center for Biotechnology Information (NCBI), qui soutient la recherche génomique et métagénomique.
 2. [GenBank Bioproject](https://www.ncbi.nlm.nih.gov/bioproject). L'enregistrement du BioProject est requis dans le cadre du dépôt de données dans plusieurs archives de données primaires du NCBI, notamment SRA, TSA et WGS.
 3. [Archive de lecture de séquence (SRA)](https://www.ncbi.nlm.nih.gov/sra). Un référentiel pour les données de séquençage à haut débit, stockant les lectures de séquençage brutes des études génomiques.
 4. [Assemblage de transcriptome Shotgun (TSA)](https://www.ncbi.nlm.nih.gov/tsa). Un référentiel pour les séquences de transcriptome, contenant des assemblages de divers organismes.
@@ -33,9 +33,9 @@ En voici quelques exemples :
 12. [PeptideAtlas](http://www.peptideatlas.org/). Un référentiel de données sur les peptides et la protéomique, fournissant une vaste collection de peptides observés à partir d'expériences de spectrométrie de masse.
 13. [Protein Data Bank (PDB)](https://www.rcsb.org/). Un référentiel pour les données structurelles 3D de grandes molécules biologiques, y compris les protéines et les acides nucléiques.
 
-Les **référentiels généralistes** ne sont pas spécifiques au type de données de recherche qu'ils hébergent (bien qu'ils aient d'autres limitations telles que la taille de l'ensemble de données).
+Les **dépôts de données généralistes** ne sont pas spécifiques au type de données de recherche qu'ils hébergent (bien qu'ils aient d'autres limitations telles que la taille de l'ensemble de données).
 
-Au Canada, la plupart des institutions hébergent des référentiels de données généralistes, généralement [Borealis](https://borealisdata.ca/) (qui est dérivé de Dataverse). Des ensembles de données plus volumineux peuvent être stockés dans le [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/).
+Au Canada, la plupart des établissements hébergent des dépôts de données généralistes, généralement [Borealis](https://borealisdata.ca/) (qui est dérivé de Dataverse). Des ensembles de données plus volumineux peuvent être stockés dans le [Dépôt fédéré de données de recherche (DFDR)](https://www.frdr-dfdr.ca/repo/).
 
 L'avantage de stocker dans ces dépôts canadiens est que les données peuvent être cataloguées par d'autres services, ce qui rend vos données plus faciles à trouver par d'autres chercheurs. Recherchez des données de recherche canadiennes à l'aide du [moteur de recherche de données Lunaris](https://www.lunaris.ca/).
 
