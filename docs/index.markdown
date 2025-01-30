@@ -25,6 +25,7 @@ Le manuel numérique gratuit (en anglais) [Gestion des données de recherche dan
 
 ## Ressources FAIR
 * Manuel numérique gratuit [Gestion des données de recherche dans le contexte canadien](https://ecampusontario.pressbooks.pub/canadardm/)
+* Bibliothèque UBC [Research Data Management Documentation](https://ubc-library-rc.github.io/rdm/).
 * Site officiel de [GO-FAIR](https://www.go-fair.org/fair-principles/)
 * L’EOSC a publié un [site de ressources](https://catalogue.fair-impact.eu/resources) pour aider à trouver des moyens de mettre en œuvre les principes FAIR.
 * L'Alliance de recherche numérique du Canada propose de nombreux liens vers des [ressources de formation en français](https://alliancecan.ca/fr/services/gestion-des-donnees-de-recherche/apprentissage-et-ressources/ressources-de-formation) qui seraient utiles aux chercheurs.

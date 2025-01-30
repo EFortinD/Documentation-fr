@@ -14,7 +14,7 @@ Un autre avantage clé de la documentation des données est leur conservation po
 
 Quelques considérations pour la documentation des données
 
-* **Vocabulaires et ontologies** : utilisez des vocabulaires structurés et des ontologies standardisées (par exemple, GO pour les produits génétiques, MIAME pour les microarrays) pour garantir la cohérence et la compatibilité entre les projets de recherche.
+* **Vocabulaires et ontologies** : utilisez des vocabulaires structurés et des ontologies standardisées (par exemple, Gene Ontology (GO) pour les produits génétiques, MIAME pour les microarrays) pour garantir la cohérence et la compatibilité entre les projets de recherche.
 * **Schémas de données** : définissez une structure ou un schéma clair pour vos données, décrivant comment les données sont organisées et comment les champs sont liés les uns aux autres.
 * **Métadonnées** : incluez des métadonnées détaillées pour décrire le contexte, le contenu et la structure des données (par exemple, la date de collecte, les méthodes utilisées, les unités de mesure).
 * **Noms de fichiers de données** : utilisez des noms de fichiers cohérents et descriptifs qui indiquent le contenu, la version et la date, aidant les utilisateurs à comprendre rapidement ce que contient le fichier.
