@@ -6,9 +6,9 @@ nav_order: 4
 
 # Documentation des données
 
-La documentation des données pour la recherche est essentielle pour les données FAIR. Une documentation appropriée des données permet aux chercheurs d'origine et aux autres d'analyser, de partager ou de reproduire plus facilement les résultats.
+La documentation des données pour la recherche est essentielle pour avoir des données FAIR. Une documentation appropriée des données permet à l'équipe de recherche originale et aux autres d'analyser, de partager ou de reproduire plus facilement les résultats.
 
-Sans documentation claire, les futurs utilisateurs peuvent mal interpréter les données. Des données bien documentées facilitent la collaboration et le partage des données entre les équipes de recherche, car une documentation standardisée facilite l'intégration des ensembles de données dans des contextes de recherche plus larges.
+Sans documentation claire, les futures personnes qui utiliseront les données peuvent mal les interpréter. Des données bien documentées facilitent la collaboration et le partage des données entre les équipes de recherche, car une documentation standardisée facilite l'intégration des ensembles de données dans des contextes de recherche plus larges.
 
 Un autre avantage clé de la documentation des données est leur conservation pour une utilisation à long terme. À mesure que la technologie, les logiciels et les méthodes évoluent, une documentation claire garantit que les données restent accessibles et utiles des années après leur collecte. Cela est particulièrement important dans les projets de recherche à grande échelle, où plusieurs ensembles de données peuvent être intégrés.
 
