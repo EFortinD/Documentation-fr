@@ -20,9 +20,9 @@ Les noms de fichiers, les formats et les jeux de caractères ont chacun des aspe
 
 ## Pourquoi normaliser les noms de fichiers ?
 
-La normalisation des conventions de dénomination des fichiers aide les chercheurs à mieux organiser leur propre travail et à collaborer avec d'autres.
+La normalisation des conventions de nommage des fichiers aide les chercheuses et les chercheurs à mieux organiser leur propre travail et à collaborer avec d'autres.
 Les avantages comprennent :
-* Une structure cohérente entre les fichiers, ce qui permet aux chercheurs de localiser et d'identifier plus facilement les documents.
+* Une structure cohérente entre les fichiers permet de localiser et d'identifier plus facilement les documents.
 * Des noms de fichiers uniformes facilitent le tri et l'organisation des fichiers par ordre alphabétique ou chronologique.
 * Favorise une compréhension commune de la manière dont les fichiers sont nommés et organisés.
 * Les numéros de version ou les dates dans les noms de fichiers aident à gérer efficacement le contrôle des versions.
@@ -32,10 +32,10 @@ Les données « sérialisées » dans un fichier texte seront codées sous for
 
 ## Plans de gestion des données
 
-Tous les projets de recherche de l'Initiative sur les systèmes agricoles et alimentaires intelligents face au climat de Génome Canada ont créé un [Plan de gestion des données (PGD)](../datamanagementplan.md) à l'aide de l'[Assistant PGD de Portage](https://dmp-pgd.ca/). Ce PGD comprend généralement des protocoles de dénomination de fichiers recommandés pour chaque projet de recherche.
+Tous les projets de recherche de l'Initiative sur les systèmes agricoles et alimentaires intelligents face au climat de Génome Canada ont créé un [Plan de gestion des données (PGD)](../datamanagementplan.md) à l'aide de l'[Assistant PGD de l'Alliance de recherche numérique du Canada](https://dmp-pgd.ca/). Ce PGD comprend généralement des protocoles de nommage de fichiers recommandés pour chaque projet de recherche.
 
 ## Recommandations
 
-Briney, Kristin A. 2020. « Feuille de travail sur les conventions de dénomination des fichiers ». 2 juin. [https://doi.org/10.7907/894q-zr22](https://doi.org/10.7907/894q-zr22).
+Briney, Kristin A. 2020. « File Naming Convention Worksheet » (en anglais). 2 juin. [https://doi.org/10.7907/894q-zr22](https://doi.org/10.7907/894q-zr22).
 
 - Auteurs : Carly Huitema, Damion Dooley
